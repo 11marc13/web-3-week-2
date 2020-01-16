@@ -5,14 +5,16 @@
   div{
     display: grid;
     grid-template-areas: "text image";
-    grid-template-columns: (2, 1fr);
+    grid-template-columns: repeat(2, 1fr);
   }
 
   h1,h3,p{
     grid-area: text;
   }
 
-
+  h1,h2{
+    color: $illeniumRed;
+  }
 
   aside{
     grid-area: image;
@@ -33,6 +35,48 @@
 /* =============
     music player
 ============= */
+
+// #ascend{
+//     display: grid;
+//     grid-template-columns: repeat(2, 1fr);
+//     grid-template-rows: repeat(1, 40vh);
+//     grid-template-areas:
+//     "album info"
+//     "player player";
+//     background-color: $illeniumRedopacity;
+//
+//
+//     div{
+//       grid-area: info;
+//     }
+//
+//     aside {
+//       grid-area: album;
+//       padding-left: 23px;
+//     }
+//
+//
+    // img{
+    //   height: 25vh;
+    // }
+//
+//     article{
+//       grid-area: player;
+//       padding-left: 23px;
+//     }
+// }
+
+
+
+#ascend{
+  img{
+    height: 25vh;
+  }
+
+  aside{
+    padding-left: 23px;
+  }
+}
 
 
 

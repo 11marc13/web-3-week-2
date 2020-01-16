@@ -22,3 +22,39 @@ ul{
         padding: 50px 0;
     }
 }
+
+// .music-player{
+//   display: grid;
+//   grid-template-columns: repeat(2, 1fr);
+//   grid-template-rows: repeat(2, 1fr);
+//   grid-template-areas:
+//   "album info"
+//   "player . ";
+// }
+
+
+.music-player{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: (2, 40vh);
+  grid-template-areas:
+  "album info"
+  "player player";
+
+
+  aside{
+    grid-area:album;
+  }
+
+  div{
+    grid-area: info;
+  }
+
+
+  article{
+    grid-area: player;
+  }
+
+
+
+}

@@ -368,6 +368,29 @@ ul li {
   }
 }
 
+.music-player {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 2, 40vh;
+  grid-template-areas: "album info" "player player";
+}
+.music-player aside {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: album;
+}
+.music-player div {
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+  grid-area: info;
+}
+.music-player article {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-area: player;
+}
+
 /* =============
     Typography
 ============= */
@@ -388,6 +411,10 @@ h3 {
   font-style: normal;
   padding-top: 40px;
   line-height: 17px;
+}
+
+h2 {
+  font-size: 20px;
 }
 
 h4 {
@@ -449,12 +476,15 @@ textarea {
 #illenium div {
   display: grid;
   grid-template-areas: "text image";
-  grid-template-columns: 2, 1fr;
+  grid-template-columns: repeat(2, 1fr);
 }
 #illenium h1, #illenium h3, #illenium p {
   -ms-grid-row: 1;
   -ms-grid-column: 1;
   grid-area: text;
+}
+#illenium h1, #illenium h2 {
+  color: #F6450E;
 }
 #illenium aside {
   -ms-grid-row: 1;
@@ -471,3 +501,9 @@ textarea {
 /* =============
     music player
 ============= */
+#ascend img {
+  height: 25vh;
+}
+#ascend aside {
+  padding-left: 23px;
+}
