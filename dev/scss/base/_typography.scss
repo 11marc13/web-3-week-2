@@ -3,14 +3,42 @@
 ============= */
 
 body{
-    font-family: 'Noto Serif', serif;
+    font-family: 'ebony', sans-serif;
+    line-height: 28px;
 }
 
 h1{
-    font-family: 'Nunito', sans-serif;
+    font-family: 'itc-avant-garde-pro', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    // padding-bottom: 50px;
+}
+
+h3{
+    font-family: 'itc-avant-garde-pro', sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    // padding-bottom: 18px;
+    padding-top: 40px;
+    line-height:17px;
+}
+
+h4{
+  font-family: 'itc-avant-garde-pro', sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  padding-bottom: 18px;
+  line-height: 25px;
 }
 
 h1,h2,h3,h4,h5,p{
-    padding: 0;
+    padding-left: 23px;
+    padding-right: 23px;
     margin: 0;
+}
+
+p{
+  line-height: 18px;
+  font-size: 15px;
+  padding-top: 88px;
 }

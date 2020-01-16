@@ -1,0 +1,128 @@
+/* =============
+    illenium
+============= */
+#illenium {
+  div{
+    display: grid;
+    grid-template-areas: "text image";
+    grid-template-columns: (2, 1fr);
+  }
+
+  h1,h3,p{
+    grid-area: text;
+  }
+
+
+
+  aside{
+    grid-area: image;
+  }
+
+  span{
+    display: none;
+  }
+
+  img{
+    height: 50vh;
+  }
+
+}
+
+
+
+/* =============
+    music player
+============= */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// @include xl {
+//     display: grid;
+//     grid-template-areas: ". believe-content .";
+//     grid-template-columns: auto 1200px auto;
+// }
+//
+// div {
+//     @include md {
+//         display: grid;
+//         grid-template-areas: "believe-img believe-text";
+//         grid-template-columns: 45% auto;
+//     }
+//     @include xl {
+//         grid-area: believe-content;
+//     }
+//
+//     section {
+//         display: grid;
+//         grid-template-areas: ". believe .";
+//         grid-template-columns: 20px auto 20px;
+//         @include md {
+//             grid-area: believe-text;
+//         }
+//
+//         > div {
+//             grid-area: believe;
+//             text-align: center;
+//             @include md {
+//                 align-items: center;
+//                 display: flex;
+//             }
+//
+//             article {
+//                 border-bottom: 3px solid $rust;
+//                 border-top: 3px solid $rust;
+//                 padding: 20px 0;
+//
+//                 h1 {}
+//
+//                 p {}
+//             }
+//         }
+//     }
+//
+//     aside {
+//         background-image: url("../img/believe/believe.jpg");
+//         background-size: cover;
+//         height: 90vh;
+//         margin-top: 40px;
+//         @include md {
+//             grid-area: believe-img;
+//             height: 50vh;
+//             margin-top: 0;
+//         }
+//     }
+// }
