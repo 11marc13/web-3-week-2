@@ -1,0 +1,36 @@
+/* =============
+    Heroes
+============= */
+
+#hero{
+
+    background-image: url('../img/heroes/hero.jpg');
+    background-size: cover;
+    background-position: center bottom;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+
+    @include xl{
+        height: 100vh;
+    }
+
+
+    h1{
+        font-weight: 300;
+        font-size: rem-calc(46);
+        margin-top: 15vh;
+        color: $white;
+
+        @include md{
+            font-size: rem-calc(60);
+            margin-top: 20vh;
+        }
+
+        @include xl{
+            font-size: rem-calc(80);
+            margin-top: 10vh;
+        }
+    }
+
+}
