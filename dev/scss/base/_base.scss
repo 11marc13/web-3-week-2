@@ -1,28 +1,27 @@
 /* =============
     Base
 ============= */
-figure{
-    padding: 0;
-    margin: 0;
+
+figure {
+  padding: 0;
+  margin: 0;
 }
 
-ul{
-    padding: 0;
-    margin: 0;
-    li{
-        list-style: none;
-    }
+ul {
+  padding: 0;
+  margin: 0;
+
+  li {
+    list-style: none;
+  }
 }
 
-
-.section-content{
-    padding: 40px 0;
-
-    @include md{
-        padding: 50px 0;
-    }
+.section-content {
+  padding: 40px 0;
+  @include md {
+    padding: 50px 0;
+  }
 }
-
 // .music-player{
 //   display: grid;
 //   grid-template-columns: repeat(2, 1fr);
@@ -32,29 +31,81 @@ ul{
 //   "player . ";
 // }
 
+.music-player {
+  >div {
+    display: flex;
+    flex: 2;
+    flex-direction: row;
+    padding-top: rem-calc(21);
+    // grid-template-columns: 50% auto;
+    // grid-template-areas: "album .""album .";
 
-.music-player{
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: (2, 40vh);
-  grid-template-areas:
-  "album info"
-  "player player";
-
-
-  aside{
-    grid-area:album;
+    img {
+      // grid-area: album;
+      height: 25vh;
+      padding-left: 23px;
+    }
   }
-
-  div{
-    grid-area: info;
-  }
-
-
-  article{
-    grid-area: player;
-  }
-
-
-
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// .music-player{
+//   display: grid;
+//   grid-template-columns: 50%, auto;
+//   // grid-template-rows: (2, 40vh);
+//   grid-template-areas:
+//   "album info";
+//
+//
+//   aside{
+//     grid-area:album;
+//   }
+//
+//   div{
+//     grid-area: info;
+//   }
+//
+//
+//   article{
+//     grid-area: player;
+//   }
+//
+//
+//
+// }

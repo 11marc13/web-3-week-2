@@ -368,27 +368,15 @@ ul li {
   }
 }
 
-.music-player {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: 2, 40vh;
-  grid-template-areas: "album info" "player player";
+.music-player > div {
+  display: flex;
+  flex: 2;
+  flex-direction: row;
+  padding-top: 1.3125rem;
 }
-.music-player aside {
-  -ms-grid-row: 1;
-  -ms-grid-column: 1;
-  grid-area: album;
-}
-.music-player div {
-  -ms-grid-row: 1;
-  -ms-grid-column: 2;
-  grid-area: info;
-}
-.music-player article {
-  -ms-grid-row: 2;
-  -ms-grid-column: 1;
-  -ms-grid-column-span: 2;
-  grid-area: player;
+.music-player > div img {
+  height: 25vh;
+  padding-left: 23px;
 }
 
 /* =============
@@ -409,7 +397,7 @@ h3 {
   font-family: "itc-avant-garde-pro", sans-serif;
   font-weight: 500;
   font-style: normal;
-  padding-top: 40px;
+  padding-top: 10px;
   line-height: 17px;
 }
 
@@ -421,8 +409,15 @@ h4 {
   font-family: "itc-avant-garde-pro", sans-serif;
   font-weight: 500;
   font-style: normal;
-  padding-bottom: 18px;
   line-height: 25px;
+}
+
+h5 {
+  font-family: "itc-avant-garde-pro", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 7.25rem;
+  opacity: 0.25;
 }
 
 h1, h2, h3, h4, h5, p {
@@ -434,7 +429,7 @@ h1, h2, h3, h4, h5, p {
 p {
   line-height: 18px;
   font-size: 15px;
-  padding-top: 88px;
+  padding-top: 10px;
 }
 
 /* =============
@@ -475,35 +470,42 @@ textarea {
 ============= */
 #illenium div {
   display: grid;
-  grid-template-areas: "text image";
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-areas: ". image" ". image";
+  grid-template-columns: 50%, auto;
 }
-#illenium h1, #illenium h3, #illenium p {
-  -ms-grid-row: 1;
-  -ms-grid-column: 1;
-  grid-area: text;
+#illenium div article {
+  padding-top: 25px;
 }
-#illenium h1, #illenium h2 {
+#illenium div article h1 {
   color: #F6450E;
 }
-#illenium aside {
+#illenium div article div {
+  position: relative;
+}
+#illenium div article div h5 {
+  position: absolute;
+  color: #F6450E;
+  left: 100;
+}
+#illenium div p span {
+  display: none;
+}
+#illenium div aside {
   -ms-grid-row: 1;
+  -ms-grid-row-span: 2;
   -ms-grid-column: 2;
   grid-area: image;
 }
-#illenium span {
-  display: none;
-}
-#illenium img {
+#illenium div aside img {
   height: 50vh;
 }
 
 /* =============
     music player
 ============= */
-#ascend img {
-  height: 25vh;
+#ascend {
+  background-color: #FDD0C2;
 }
-#ascend aside {
-  padding-left: 23px;
+#ascend h2 {
+  color: #F6450E;
 }

@@ -1,40 +1,103 @@
 /* =============
     illenium
 ============= */
+
 #illenium {
-  div{
+  div {
     display: grid;
-    grid-template-areas: "text image";
-    grid-template-columns: repeat(2, 1fr);
-  }
+    grid-template-areas: ". image" ". image";
+    grid-template-columns: 50%, auto;
+    // grid-template-rows:
+    article {
+      padding-top: 25px;
 
-  h1,h3,p{
-    grid-area: text;
-  }
+      h1 {
+        color: $illeniumRed;
+      }
 
-  h1,h2{
-    color: $illeniumRed;
-  }
+      div {
+        position: relative;
 
-  aside{
-    grid-area: image;
-  }
+        h5 {
+          position: absolute;
+          color: $illeniumRed;
+          left: 100;
+        }
+      }
+    }
 
-  span{
-    display: none;
-  }
+    p {
+      span {
+        display: none;
+      }
+    }
 
-  img{
-    height: 50vh;
-  }
+    aside {
+      grid-area: image;
 
+      img {
+        height: 50vh;
+      }
+    }
+  }
 }
+
 
 
 
 /* =============
     music player
 ============= */
+
+#ascend{
+  background-color: $illeniumRedopacity;
+
+  h2{
+    color: $illeniumRed
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // #ascend{
 //     display: grid;
@@ -56,46 +119,15 @@
 //     }
 //
 //
-    // img{
-    //   height: 25vh;
-    // }
+// img{
+//   height: 25vh;
+// }
 //
 //     article{
 //       grid-area: player;
 //       padding-left: 23px;
 //     }
 // }
-
-
-
-#ascend{
-  img{
-    height: 25vh;
-  }
-
-  aside{
-    padding-left: 23px;
-  }
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
