@@ -420,7 +420,7 @@ h5 {
   opacity: 0.25;
 }
 
-h1, h2, h3, h4, h5, p {
+h1, h2, h3, h4, p {
   padding-left: 23px;
   padding-right: 23px;
   margin: 0;
@@ -430,6 +430,7 @@ p {
   line-height: 18px;
   font-size: 15px;
   padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 /* =============
@@ -465,16 +466,25 @@ textarea {
 /* =============
     intro
 ============= */
+#intro {
+  padding-bottom: 20px;
+}
+
 /* =============
     illenium
 ============= */
 #illenium div {
   display: grid;
-  grid-template-areas: ". image" ". image";
-  grid-template-columns: 50%, auto;
+  grid-template-areas: "text ." "text .";
+  grid-template-columns: 50% auto;
+  position: relative;
 }
 #illenium div article {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 2;
+  -ms-grid-column: 1;
   padding-top: 25px;
+  grid-area: text;
 }
 #illenium div article h1 {
   color: #F6450E;
@@ -482,19 +492,24 @@ textarea {
 #illenium div article div {
   position: relative;
 }
-#illenium div article div h5 {
+#illenium div article div aside {
   position: absolute;
+  height: 100px;
+  width: 100px;
+  top: 0;
+  left: -20px;
+}
+#illenium div article div aside h5 {
   color: #F6450E;
-  left: 100;
+  margin: 0;
 }
 #illenium div p span {
   display: none;
 }
 #illenium div aside {
-  -ms-grid-row: 1;
-  -ms-grid-row-span: 2;
-  -ms-grid-column: 2;
-  grid-area: image;
+  position: absolute;
+  bottom: 0;
+  right: 0;
 }
 #illenium div aside img {
   height: 50vh;
