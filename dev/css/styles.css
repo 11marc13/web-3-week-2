@@ -374,6 +374,12 @@ ul li {
   flex-direction: row;
   padding-top: 1.3125rem;
 }
+@media (min-width: 768px) {
+  .music-player > div {
+    padding-top: 55px;
+    padding-bottom: 55px;
+  }
+}
 .music-player > div img {
   height: 25vh;
   padding-left: 23px;
@@ -381,13 +387,21 @@ ul li {
 @media (min-width: 768px) {
   .music-player > div img {
     height: 20vh;
-    padding-left: 43px;
+    padding-left: 60px;
+    padding-bottom: 20px;
   }
 }
 
 audio {
   padding-left: 23px;
   padding-top: 15px;
+}
+@media (min-width: 768px) {
+  audio {
+    padding-left: 60px;
+    padding-top: 20px;
+    width: 50vw;
+  }
 }
 
 /* =============
@@ -409,6 +423,19 @@ h1 {
   }
 }
 
+h2 {
+  font-size: 20px;
+  padding-left: 23px;
+  padding-right: 23px;
+  margin: 0;
+}
+@media (min-width: 768px) {
+  h2 {
+    font-size: 30px;
+    padding-left: 60px;
+  }
+}
+
 h3 {
   font-family: "itc-avant-garde-pro", sans-serif;
   font-weight: 500;
@@ -419,19 +446,8 @@ h3 {
 @media (min-width: 768px) {
   h3 {
     font-size: 25px;
-    line-height: 23px;
-  }
-}
-
-h2 {
-  font-size: 20px;
-  padding-left: 23px;
-  padding-right: 23px;
-  margin: 0;
-}
-@media (min-width: 768px) {
-  h2 {
-    font-size: 30px;
+    line-height: 30px;
+    padding-top: 13px;
   }
 }
 
@@ -454,6 +470,11 @@ h5 {
   font-style: normal;
   font-size: 7.25rem;
   opacity: 0.25;
+}
+@media (min-width: 768px) {
+  h5 {
+    font-size: 200px;
+  }
 }
 
 h1, h3, p {
@@ -571,11 +592,6 @@ textarea {
   color: #F6450E;
   margin: 0;
 }
-@media (min-width: 768px) {
-  #illenium div article div aside h5 {
-    font-size: 200px;
-  }
-}
 #illenium div p span {
   display: none;
 }
@@ -607,7 +623,6 @@ textarea {
 @media (min-width: 768px) {
   #ascend {
     margin: 0 38px;
-    padding-top: 20px;
   }
 }
 #ascend h2 {

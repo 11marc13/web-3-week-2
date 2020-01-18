@@ -38,8 +38,8 @@ ul {
     flex-direction: row;
     padding-top: rem-calc(21);
     @include md{
-      // padding: 40px 0;
-      // margin: 0 38px;
+        padding-top: 55px;
+        padding-bottom: 55px;
     }
 
     img {
@@ -48,7 +48,8 @@ ul {
       padding-left: 23px;
       @include md{
         height: 20vh;
-        padding-left: 43px;
+        padding-left: 60px;
+        padding-bottom: 20px;
       }
     }
   }
@@ -59,6 +60,11 @@ ul {
 audio{
   padding-left: 23px;
   padding-top: 15px;
+  @include md{
+    padding-left: 60px;
+    padding-top: 20px;
+    width: 50vw;
+  }
 }
 
 
