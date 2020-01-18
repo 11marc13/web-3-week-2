@@ -37,15 +37,28 @@ ul {
     flex: 2;
     flex-direction: row;
     padding-top: rem-calc(21);
-    // grid-template-columns: 50% auto;
-    // grid-template-areas: "album .""album .";
+    @include md{
+      // padding: 40px 0;
+      // margin: 0 38px;
+    }
 
     img {
       // grid-area: album;
       height: 25vh;
       padding-left: 23px;
+      @include md{
+        height: 20vh;
+        padding-left: 43px;
+      }
     }
   }
+}
+
+
+
+audio{
+  padding-left: 23px;
+  padding-top: 15px;
 }
 
 

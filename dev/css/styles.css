@@ -378,6 +378,17 @@ ul li {
   height: 25vh;
   padding-left: 23px;
 }
+@media (min-width: 768px) {
+  .music-player > div img {
+    height: 20vh;
+    padding-left: 43px;
+  }
+}
+
+audio {
+  padding-left: 23px;
+  padding-top: 15px;
+}
 
 /* =============
     Typography
@@ -392,6 +403,11 @@ h1 {
   font-weight: 700;
   font-style: normal;
 }
+@media (min-width: 768px) {
+  h1 {
+    font-size: 40px;
+  }
+}
 
 h3 {
   font-family: "itc-avant-garde-pro", sans-serif;
@@ -400,9 +416,23 @@ h3 {
   padding-top: 10px;
   line-height: 17px;
 }
+@media (min-width: 768px) {
+  h3 {
+    font-size: 25px;
+    line-height: 23px;
+  }
+}
 
 h2 {
   font-size: 20px;
+  padding-left: 23px;
+  padding-right: 23px;
+  margin: 0;
+}
+@media (min-width: 768px) {
+  h2 {
+    font-size: 30px;
+  }
 }
 
 h4 {
@@ -410,6 +440,12 @@ h4 {
   font-weight: 500;
   font-style: normal;
   line-height: 25px;
+}
+@media (min-width: 768px) {
+  h4 {
+    font-size: 20px;
+    line-height: 30px;
+  }
 }
 
 h5 {
@@ -420,10 +456,16 @@ h5 {
   opacity: 0.25;
 }
 
-h1, h2, h3, h4, p {
+h1, h3, p {
   padding-left: 23px;
   padding-right: 23px;
   margin: 0;
+}
+@media (min-width: 768px) {
+  h1, h3, p {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
 }
 
 p {
@@ -431,6 +473,13 @@ p {
   font-size: 15px;
   padding-top: 10px;
   padding-bottom: 10px;
+}
+@media (min-width: 768px) {
+  p {
+    font-size: 20px;
+    line-height: 30px;
+    padding-bottom: 80px;
+  }
 }
 
 /* =============
@@ -472,6 +521,11 @@ textarea {
 #intro {
   padding-bottom: 20px;
 }
+@media (min-width: 768px) {
+  #intro div {
+    padding: 20px 100px 90px;
+  }
+}
 
 /* =============
     illenium
@@ -489,6 +543,11 @@ textarea {
   padding-top: 25px;
   grid-area: text;
 }
+@media (min-width: 768px) {
+  #illenium div article {
+    padding-top: 50px;
+  }
+}
 #illenium div article h1 {
   color: #F6450E;
 }
@@ -502,9 +561,20 @@ textarea {
   top: 0;
   left: -20px;
 }
+@media (min-width: 768px) {
+  #illenium div article div aside {
+    bottom: 60px;
+    left: -28px;
+  }
+}
 #illenium div article div aside h5 {
   color: #F6450E;
   margin: 0;
+}
+@media (min-width: 768px) {
+  #illenium div article div aside h5 {
+    font-size: 200px;
+  }
 }
 #illenium div p span {
   display: none;
@@ -514,8 +584,18 @@ textarea {
   bottom: 0;
   right: 0;
 }
+@media (min-width: 768px) {
+  #illenium div aside {
+    right: 40px;
+  }
+}
 #illenium div aside img {
   height: 50vh;
+}
+@media (min-width: 768px) {
+  #illenium div aside img {
+    height: 48vh;
+  }
 }
 
 /* =============
@@ -524,6 +604,16 @@ textarea {
 #ascend {
   background-color: #FDD0C2;
 }
+@media (min-width: 768px) {
+  #ascend {
+    margin: 0 38px;
+    padding-top: 20px;
+  }
+}
 #ascend h2 {
   color: #F6450E;
+}
+#ascend article {
+  padding-top: 20px;
+  padding-bottom: 1.3125rem;
 }

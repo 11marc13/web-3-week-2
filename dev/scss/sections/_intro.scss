@@ -1,7 +1,12 @@
 /* =============
     intro
 ============= */
-
-#intro{
+#intro {
   padding-bottom: 20px;
+
+  div {
+    @include md {
+      padding: 20px 100px 90px;
+    }
+  }
 }

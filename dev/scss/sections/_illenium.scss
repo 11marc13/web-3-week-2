@@ -1,16 +1,21 @@
 /* =============
     illenium
 ============= */
+
 #illenium {
   div {
     display: grid;
     grid-template-areas: "text ." "text .";
     grid-template-columns: 50% auto;
     position: relative;
+
     // grid-template-rows:
     article {
       padding-top: 25px;
       grid-area: text;
+      @include md{
+        padding-top: 50px;
+      }
 
       h1 {
         color: $illeniumRed;
@@ -25,13 +30,17 @@
           width: 100px;
           top: 0;
           left: -20px;
-          // overflow: hidden;
+          @include md{
+            bottom: 60px;
+            left: -28px;
+          }
+
           h5 {
-            // position: absolute;
             color: $illeniumRed;
-            // left: -2;
             margin: 0;
-            // top: 100;
+            @include md{
+              font-size: 200px;
+            }
           }
         }
       }
@@ -49,9 +58,16 @@
       position: absolute;
       bottom: 0;
       right: 0;
+      @include md{
+                right: 40px;
+      }
 
       img {
         height: 50vh;
+        @include md{
+          height: 48vh;
+
+        }
       }
     }
   }
@@ -59,19 +75,23 @@
 /* =============
     music player
 ============= */
+
 #ascend {
   background-color: $illeniumRedopacity;
+  @include md{
+    margin: 0 38px;
+    padding-top: 20px;
+  }
 
   h2 {
     color: $illeniumRed;
   }
+
+  article {
+    padding-top: 20px;
+    padding-bottom: rem-calc(21);
+  }
 }
-
-
-
-
-
-
 
 
 
