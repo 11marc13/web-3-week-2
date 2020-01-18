@@ -464,6 +464,16 @@ textarea {
     Footer
 ============= */
 /* =============
+    hero
+============= */
+#hero {
+  overflow: hidden;
+}
+#hero source {
+  width: 100vw;
+}
+
+/* =============
     intro
 ============= */
 #intro {
