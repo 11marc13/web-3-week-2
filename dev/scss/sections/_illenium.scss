@@ -66,6 +66,10 @@
           height: 48vh;
 
         }
+
+        @include lg{
+          height: 120vh;
+        }
       }
     }
   }

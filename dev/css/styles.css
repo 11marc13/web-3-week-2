@@ -359,15 +359,6 @@ ul li {
   list-style: none;
 }
 
-.section-content {
-  padding: 40px 0;
-}
-@media (min-width: 768px) {
-  .section-content {
-    padding: 50px 0;
-  }
-}
-
 .music-player > div {
   display: flex;
   flex: 2;
@@ -389,6 +380,12 @@ ul li {
     height: 20vh;
     padding-left: 60px;
     padding-bottom: 20px;
+  }
+}
+@media (min-width: 992px) {
+  .music-player > div img {
+    height: 70vh;
+    padding-bottom: 0;
   }
 }
 
@@ -547,6 +544,13 @@ textarea {
     padding: 20px 100px 90px;
   }
 }
+@media (min-width: 992px) {
+  #intro div {
+    padding-bottom: 120px;
+    padding-left: 120px;
+    padding-right: 120px;
+  }
+}
 
 /* =============
     illenium
@@ -611,6 +615,11 @@ textarea {
 @media (min-width: 768px) {
   #illenium div aside img {
     height: 48vh;
+  }
+}
+@media (min-width: 992px) {
+  #illenium div aside img {
+    height: 120vh;
   }
 }
 

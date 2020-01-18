@@ -22,12 +22,12 @@ ul {
 //   overflow: hidden;
 // }
 
-.section-content {
-  padding: 40px 0;
-  @include md {
-    padding: 50px 0;
-  }
-}
+// .section-content {
+//   padding: 40px 0;
+//   @include md {
+//     padding: 50px 0;
+//   }
+// }
 
 
 
@@ -50,6 +50,10 @@ ul {
         height: 20vh;
         padding-left: 60px;
         padding-bottom: 20px;
+      }
+      @include lg{
+        height: 70vh;
+        padding-bottom: 0;
       }
     }
   }

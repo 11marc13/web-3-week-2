@@ -8,5 +8,11 @@
     @include md {
       padding: 20px 100px 90px;
     }
+
+    @include lg{
+      padding-bottom: 120px;
+      padding-left: 120px;
+      padding-right: 120px;
+    }
   }
 }
