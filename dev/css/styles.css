@@ -728,6 +728,11 @@ textarea {
     margin-right: 38px;
   }
 }
+@media (min-width: 992px) {
+  #ascend {
+    margin-bottom: 110px;
+  }
+}
 @media (min-width: 1200px) {
   #ascend {
     margin-left: 180px;
@@ -788,7 +793,7 @@ textarea {
 }
 @media (min-width: 992px) {
   #kendrick div article div aside h5 {
-    padding-left: 360px;
+    padding-left: 338px;
   }
 }
 @media (min-width: 768px) {
@@ -869,6 +874,11 @@ textarea {
   #good-kid {
     margin: 0 38px;
     margin-bottom: 6.25rem;
+  }
+}
+@media (min-width: 992px) {
+  #good-kid {
+    margin-bottom: 6.875rem;
   }
 }
 @media (min-width: 1200px) {
@@ -1008,6 +1018,11 @@ textarea {
     margin-bottom: 6.25rem;
   }
 }
+@media (min-width: 992px) {
+  #rodeo {
+    margin-bottom: 6.875rem;
+  }
+}
 @media (min-width: 1200px) {
   #rodeo {
     margin-left: 180px;
@@ -1068,7 +1083,7 @@ textarea {
 }
 @media (min-width: 992px) {
   #frank div article div aside h5 {
-    padding-left: 360px;
+    padding-left: 338px;
   }
 }
 @media (min-width: 768px) {
@@ -1148,6 +1163,11 @@ textarea {
 @media (min-width: 768px) {
   #blonde {
     margin: 0 38px 14.375rem;
+  }
+}
+@media (min-width: 992px) {
+  #blonde {
+    margin-bottom: 6.875rem;
   }
 }
 @media (min-width: 1200px) {

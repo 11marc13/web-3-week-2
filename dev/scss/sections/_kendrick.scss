@@ -47,7 +47,7 @@
               padding-left: 225px;
             }
             @include lg{
-              padding-left: 360px;
+              padding-left: 338px;
             }
           }
         }
@@ -131,6 +131,9 @@
     margin: 0 38px;
     margin-bottom: rem-calc(100);
     // padding-top: 20px;
+  }
+  @include lg{
+    margin-bottom: rem-calc(110);
   }
   @include xl {
     margin-right: 180px;
