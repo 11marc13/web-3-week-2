@@ -847,6 +847,7 @@ textarea {
 @media (min-width: 768px) {
   #good-kid {
     margin: 0 38px;
+    margin-bottom: 14.375rem;
   }
 }
 @media (min-width: 1200px) {
@@ -925,7 +926,7 @@ textarea {
 }
 @media (min-width: 768px) {
   #travis div aside img {
-    height: 48vh;
+    height: 58vh;
   }
 }
 @media (min-width: 992px) {

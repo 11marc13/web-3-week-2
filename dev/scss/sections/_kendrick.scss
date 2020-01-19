@@ -118,6 +118,7 @@
   }
   @include md {
     margin: 0 38px;
+    margin-bottom: rem-calc(230);
     // padding-top: 20px;
   }
   @include xl {
