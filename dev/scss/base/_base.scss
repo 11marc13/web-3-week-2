@@ -67,5 +67,9 @@ footer{
     @include md{
       line-height: 50px;
     }
+    @include lg{
+      padding-left: 160px;
+      padding-right: 160px;
+    }
   }
 }

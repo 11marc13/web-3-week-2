@@ -424,6 +424,12 @@ footer h2 {
     line-height: 50px;
   }
 }
+@media (min-width: 992px) {
+  footer h2 {
+    padding-left: 160px;
+    padding-right: 160px;
+  }
+}
 
 /* =============
     Typography
