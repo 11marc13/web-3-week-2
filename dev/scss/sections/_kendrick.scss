@@ -5,7 +5,7 @@
 #kendrick {
   div {
     display: grid;
-    grid-template-areas: "text ." "text .";
+    grid-template-areas: ". text" ". text";
     grid-template-columns: 50% auto;
     position: relative;
     // grid-template-rows:
@@ -17,24 +17,25 @@
       }
 
       h1 {
-        color: $illeniumRed;
+        color: $kendrickblue;
       }
 
       div {
         position: relative;
-        /** number 5 **/
+        /** number 4 **/
         aside {
           position: absolute;
           height: 100px;
           width: 100px;
           top: 0;
-          left: -20px;
+          // left: -35;
+          right: -5;
           @include md {
             bottom: 60px;
             left: -28px;
           }
           h5 {
-            color: $illeniumRed;
+            color: $kendrickblue;
             margin: 0;
           }
         }
@@ -54,14 +55,15 @@
     aside {
       position: absolute;
       bottom: 0;
-      right: 0;
+      // top: 20;
+      // right: 1;
       // left: 700;
       @include md {
         right: 40px;
       }
 
       img {
-        height: 52vh;
+        height: 55vh;
         @include md {
           height: 48vh;
         }
@@ -80,10 +82,14 @@
 ============= */
 
 #good-kid {
-  background-color: $illeniumRedopacity;
+  background-color: $kendrickblueopacity;
 
   h2 {
-    color: $illeniumRed;
+    color: $kendrickblue;
+  }
+  p{
+    padding-top: 36px;
+    padding-bottom: 0;
   }
 
   article {

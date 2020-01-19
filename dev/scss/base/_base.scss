@@ -50,13 +50,3 @@ audio {
       padding-left: 80px;
   }
 }
-
-
-.music-player-text{
-    padding-top: 45px;
-    padding-bottom: 0;
-    @include xl{
-        padding-top: 230px;
-        padding-bottom: 0;
-      }
-    }

@@ -405,17 +405,6 @@ audio {
   }
 }
 
-.music-player-text {
-  padding-top: 45px;
-  padding-bottom: 0;
-}
-@media (min-width: 1200px) {
-  .music-player-text {
-    padding-top: 230px;
-    padding-bottom: 0;
-  }
-}
-
 /* =============
     Typography
 ============= */
@@ -698,9 +687,20 @@ textarea {
 ============= */
 #ascend {
   background-color: #FDD0C2;
+  margin-bottom: 6.25rem;
 }
 #ascend h2 {
   color: #F6450E;
+}
+#ascend p {
+  padding-top: 45px;
+  padding-bottom: 0;
+}
+@media (min-width: 1200px) {
+  #ascend p {
+    padding-top: 230px;
+    padding-bottom: 0;
+  }
 }
 #ascend article {
   padding-top: 20px;
@@ -722,14 +722,14 @@ textarea {
 ============= */
 #kendrick div {
   display: grid;
-  grid-template-areas: "text ." "text .";
+  grid-template-areas: ". text" ". text";
   grid-template-columns: 50% auto;
   position: relative;
 }
 #kendrick div article {
   -ms-grid-row: 1;
   -ms-grid-row-span: 2;
-  -ms-grid-column: 1;
+  -ms-grid-column: 2;
   padding-top: 25px;
   grid-area: text;
 }
@@ -739,18 +739,18 @@ textarea {
   }
 }
 #kendrick div article h1 {
-  color: #F6450E;
+  color: #366F91;
 }
 #kendrick div article div {
   position: relative;
-  /** number 5 **/
+  /** number 4 **/
 }
 #kendrick div article div aside {
   position: absolute;
   height: 100px;
   width: 100px;
   top: 0;
-  left: -20px;
+  right: -5;
 }
 @media (min-width: 768px) {
   #kendrick div article div aside {
@@ -759,7 +759,7 @@ textarea {
   }
 }
 #kendrick div article div aside h5 {
-  color: #F6450E;
+  color: #366F91;
   margin: 0;
 }
 #kendrick div article p span {
@@ -774,7 +774,6 @@ textarea {
 #kendrick div aside {
   position: absolute;
   bottom: 0;
-  right: 0;
 }
 @media (min-width: 768px) {
   #kendrick div aside {
@@ -782,7 +781,7 @@ textarea {
   }
 }
 #kendrick div aside img {
-  height: 52vh;
+  height: 55vh;
 }
 @media (min-width: 768px) {
   #kendrick div aside img {
@@ -804,10 +803,14 @@ textarea {
     music player
 ============= */
 #good-kid {
-  background-color: #FDD0C2;
+  background-color: #CDDBE4;
 }
 #good-kid h2 {
-  color: #F6450E;
+  color: #366F91;
+}
+#good-kid p {
+  padding-top: 36px;
+  padding-bottom: 0;
 }
 #good-kid article {
   padding-top: 20px;
