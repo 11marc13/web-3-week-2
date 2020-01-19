@@ -84,7 +84,7 @@
           padding-right: 100px;
         }
         @include xl {
-          height: 150vh;
+          height: 140vh;
         }
       }
     }
@@ -133,5 +133,7 @@
   }
   @include xl {
     margin-left: 180px;
+    margin-right: 0;
+    margin-bottom: rem-calc(175);
   }
 }

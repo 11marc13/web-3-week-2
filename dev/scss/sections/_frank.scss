@@ -50,6 +50,9 @@
             @include lg {
               padding-left: 338px;
             }
+            @include xl{
+                padding-left: 559px;
+            }
           }
         }
       }
@@ -97,7 +100,7 @@
           padding-left: 40px;
         }
         @include xl {
-          height: 140vh;
+          height: 127vh;
         }
       }
     }
@@ -140,5 +143,7 @@
   }
   @include xl {
     margin-right: 180px;
+    margin-left: 0;
+      margin-bottom: rem-calc(175);
   }
 }

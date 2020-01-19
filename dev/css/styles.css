@@ -736,6 +736,8 @@ textarea {
 @media (min-width: 1200px) {
   #ascend {
     margin-left: 180px;
+    margin-right: 0;
+    margin-bottom: 10.9375rem;
   }
 }
 
@@ -796,6 +798,11 @@ textarea {
     padding-left: 338px;
   }
 }
+@media (min-width: 1200px) {
+  #kendrick div article div aside h5 {
+    padding-left: 559px;
+  }
+}
 @media (min-width: 768px) {
   #kendrick div article p {
     padding-bottom: 300px;
@@ -842,7 +849,7 @@ textarea {
 }
 @media (min-width: 1200px) {
   #kendrick div aside img {
-    height: 140vh;
+    height: 130vh;
   }
 }
 
@@ -884,6 +891,8 @@ textarea {
 @media (min-width: 1200px) {
   #good-kid {
     margin-right: 180px;
+    margin-left: 0;
+    margin-bottom: 10.9375rem;
   }
 }
 
@@ -978,7 +987,7 @@ textarea {
 }
 @media (min-width: 1200px) {
   #travis div aside img {
-    height: 150vh;
+    height: 140vh;
   }
 }
 
@@ -1026,6 +1035,8 @@ textarea {
 @media (min-width: 1200px) {
   #rodeo {
     margin-left: 180px;
+    margin-right: 0;
+    margin-bottom: 10.9375rem;
   }
 }
 
@@ -1086,6 +1097,11 @@ textarea {
     padding-left: 338px;
   }
 }
+@media (min-width: 1200px) {
+  #frank div article div aside h5 {
+    padding-left: 559px;
+  }
+}
 @media (min-width: 768px) {
   #frank div article p {
     padding-bottom: 300px;
@@ -1132,7 +1148,7 @@ textarea {
 }
 @media (min-width: 1200px) {
   #frank div aside img {
-    height: 140vh;
+    height: 127vh;
   }
 }
 
@@ -1173,5 +1189,7 @@ textarea {
 @media (min-width: 1200px) {
   #blonde {
     margin-right: 180px;
+    margin-left: 0;
+    margin-bottom: 10.9375rem;
   }
 }
