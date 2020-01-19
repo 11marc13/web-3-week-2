@@ -644,6 +644,11 @@ textarea {
   color: #F6450E;
   margin: 0;
 }
+@media (min-width: 768px) {
+  #illenium div article p {
+    padding-bottom: 300px;
+  }
+}
 #illenium div article p span {
   display: none;
 }
@@ -669,7 +674,7 @@ textarea {
 }
 @media (min-width: 768px) {
   #illenium div aside img {
-    height: 48vh;
+    height: 52vh;
   }
 }
 @media (min-width: 992px) {
@@ -716,7 +721,6 @@ textarea {
   #ascend {
     margin-left: 38px;
     margin-right: 38px;
-    margin-bottom: 230px;
   }
 }
 @media (min-width: 992px) {
@@ -776,6 +780,11 @@ textarea {
   color: #366F91;
   margin: 0;
 }
+@media (min-width: 768px) {
+  #kendrick div article p {
+    padding-bottom: 300px;
+  }
+}
 #kendrick div article p span {
   display: none;
 }
@@ -806,7 +815,7 @@ textarea {
 }
 @media (min-width: 768px) {
   #kendrick div aside img {
-    height: 55vh;
+    height: 60vh;
   }
 }
 @media (min-width: 992px) {
@@ -847,7 +856,7 @@ textarea {
 @media (min-width: 768px) {
   #good-kid {
     margin: 0 38px;
-    margin-bottom: 14.375rem;
+    margin-bottom: 6.875rem;
   }
 }
 @media (min-width: 1200px) {
@@ -878,7 +887,7 @@ textarea {
   }
 }
 #travis div article h1 {
-  color: #F6450E;
+  color: #D43438;
 }
 #travis div article div {
   position: relative;
@@ -900,6 +909,11 @@ textarea {
 #travis div article div aside h5 {
   color: #F4CCCD;
   margin: 0;
+}
+@media (min-width: 768px) {
+  #travis div article p {
+    padding-bottom: 300px;
+  }
 }
 #travis div article p span {
   display: none;
@@ -931,7 +945,7 @@ textarea {
 }
 @media (min-width: 768px) {
   #travis div aside img {
-    height: 58vh;
+    height: 66vh;
   }
 }
 @media (min-width: 992px) {
@@ -978,7 +992,6 @@ textarea {
   #rodeo {
     margin-left: 38px;
     margin-right: 38px;
-    margin-bottom: 230px;
   }
 }
 @media (min-width: 992px) {
@@ -1038,6 +1051,11 @@ textarea {
   color: #D1D8D0;
   margin: 0;
 }
+@media (min-width: 768px) {
+  #frank div article p {
+    padding-bottom: 300px;
+  }
+}
 #frank div article p span {
   display: none;
 }
@@ -1068,7 +1086,7 @@ textarea {
 }
 @media (min-width: 768px) {
   #frank div aside img {
-    height: 55vh;
+    height: 50vh;
   }
 }
 @media (min-width: 992px) {

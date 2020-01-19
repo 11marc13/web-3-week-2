@@ -47,6 +47,9 @@
       }
 
       p {
+        @include md{
+          padding-bottom: 300px;
+        }
         span {
           display: none;
           @include xl {
@@ -78,7 +81,7 @@
       img {
         height: 48vh;
         @include md {
-          height: 55vh;
+          height: 50vh;
         }
         @include lg {
           height: 120vh;

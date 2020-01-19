@@ -16,7 +16,7 @@
       }
 
       h1 {
-        color: $illeniumRed;
+        color: $travisRed;
       }
 
       div {
@@ -41,6 +41,9 @@
       }
 
       p {
+        @include md{
+          padding-bottom: 300px;
+        }
         span {
           display: none;
           @include xl {
@@ -72,7 +75,7 @@
       img {
         height: 70vh;
         @include md {
-          height: 58vh;
+          height: 66vh;
         }
         @include lg {
           height: 120vh;
@@ -119,7 +122,7 @@
     // margin: 0 38px;
     margin-left: 38px;
     margin-right: 38px;
-    margin-bottom: 230px;
+    // margin-bottom: 230px;
   }
   @include lg{
     margin-bottom: 300px;
