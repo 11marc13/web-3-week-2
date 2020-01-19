@@ -1,7 +1,6 @@
 /* =============
     kendrick
 ============= */
-
 #kendrick {
   div {
     display: grid;
@@ -36,9 +35,10 @@
           right: -5;
           @include md {
             bottom: 60px;
-            left: 0px;
+            left: 0;
             right: -11px;
           }
+
           h5 {
             color: $kendrickblue;
             margin: 0;
@@ -69,7 +69,7 @@
         left: 15px;
         margin-bottom: -9px;
       }
-      @include lg{
+      @include lg {
         left: 20px;
         // margin-bottom: -9px;
       }
@@ -92,17 +92,18 @@
 /* =============
     music player
 ============= */
-
 #good-kid {
   background-color: $kendrickblueopacity;
+  margin-bottom: rem-calc(100);
 
   h2 {
     color: $kendrickblue;
   }
-  p{
+
+  p {
     padding-top: 36px;
     padding-bottom: 0;
-    @include md{
+    @include md {
       padding-top: 85px;
       padding-bottom: 0;
     }

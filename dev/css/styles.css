@@ -372,7 +372,7 @@ template {
   .music-player > div img {
     height: 20vh;
     padding-left: 60px;
-    padding-bottom: 0px;
+    padding-bottom: 0;
   }
 }
 @media (min-width: 992px) {
@@ -768,7 +768,7 @@ textarea {
 @media (min-width: 768px) {
   #kendrick div article div aside {
     bottom: 60px;
-    left: 0px;
+    left: 0;
     right: -11px;
   }
 }
@@ -825,6 +825,7 @@ textarea {
 ============= */
 #good-kid {
   background-color: #CDDBE4;
+  margin-bottom: 6.25rem;
 }
 #good-kid h2 {
   color: #366F91;
@@ -851,5 +852,136 @@ textarea {
 @media (min-width: 1200px) {
   #good-kid {
     margin-right: 180px;
+  }
+}
+
+/* =============
+    travis
+============= */
+#travis div {
+  display: grid;
+  grid-template-areas: "text ." "text .";
+  grid-template-columns: 50% auto;
+  position: relative;
+}
+#travis div article {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 2;
+  -ms-grid-column: 1;
+  padding-top: 25px;
+  grid-area: text;
+}
+@media (min-width: 768px) {
+  #travis div article {
+    padding-top: 50px;
+  }
+}
+#travis div article h1 {
+  color: #F6450E;
+}
+#travis div article div {
+  position: relative;
+  /** number 5 **/
+}
+#travis div article div aside {
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  top: 0;
+  left: -20px;
+}
+@media (min-width: 768px) {
+  #travis div article div aside {
+    bottom: 60px;
+    left: -28px;
+  }
+}
+#travis div article div aside h5 {
+  color: #F4CCCD;
+  margin: 0;
+}
+#travis div article p span {
+  display: none;
+}
+@media (min-width: 1200px) {
+  #travis div article p span {
+    display: inherit;
+    padding-top: 15px;
+  }
+}
+#travis div aside {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin-bottom: -9px;
+}
+@media (min-width: 768px) {
+  #travis div aside {
+    right: 40px;
+  }
+}
+#travis div aside img {
+  height: 70vh;
+}
+@media (min-width: 768px) {
+  #travis div aside img {
+    height: 48vh;
+  }
+}
+@media (min-width: 992px) {
+  #travis div aside img {
+    height: 120vh;
+  }
+}
+@media (min-width: 1200px) {
+  #travis div aside img {
+    height: 120vh;
+  }
+}
+
+/* =============
+    music player
+============= */
+#rodeo {
+  background-color: #F4CCCD;
+  margin-bottom: 6.25rem;
+}
+#rodeo h2 {
+  color: #D43438;
+}
+#rodeo p {
+  padding-top: 45px;
+  padding-bottom: 0;
+}
+@media (min-width: 768px) {
+  #rodeo p {
+    padding-top: 90px;
+    padding-bottom: 0;
+  }
+}
+@media (min-width: 1200px) {
+  #rodeo p {
+    padding-bottom: 0;
+  }
+}
+#rodeo article {
+  padding-top: 20px;
+  padding-bottom: 1.3125rem;
+}
+@media (min-width: 768px) {
+  #rodeo {
+    margin-left: 38px;
+    margin-right: 38px;
+    margin-bottom: 230px;
+  }
+}
+@media (min-width: 992px) {
+  #rodeo {
+    margin-bottom: 300px;
+  }
+}
+@media (min-width: 1200px) {
+  #rodeo {
+    margin-left: 180px;
   }
 }

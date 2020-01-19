@@ -1,7 +1,6 @@
 /* =============
     Base
 ============= */
-
 .music-player {
   > div {
     display: flex;
@@ -12,7 +11,7 @@
       padding-top: 55px;
       padding-bottom: 55px;
     }
-    @include xl{
+    @include xl {
       padding-top: 80px;
       padding-bottom: 80px;
     }
@@ -24,13 +23,13 @@
       @include md {
         height: 20vh;
         padding-left: 60px;
-        padding-bottom: 0px;
+        padding-bottom: 0;
       }
       @include lg {
         height: 70vh;
         padding-bottom: 0;
       }
-      @include xl{
+      @include xl {
         height: 50vh;
         padding-left: 80px;
       }
@@ -46,7 +45,7 @@ audio {
     padding-top: 20px;
     width: 50vw;
   }
-  @include xl{
-      padding-left: 80px;
+  @include xl {
+    padding-left: 80px;
   }
 }

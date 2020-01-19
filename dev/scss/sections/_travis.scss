@@ -1,8 +1,7 @@
 /* =============
-    illenium
+    travis
 ============= */
-
-#illenium {
+#travis {
   div {
     display: grid;
     grid-template-areas: "text ." "text .";
@@ -35,7 +34,7 @@
           }
 
           h5 {
-            color: $illeniumRed;
+            color: $travisRedOpacity;
             margin: 0;
           }
         }
@@ -62,12 +61,12 @@
         right: 40px;
         // margin-bottom: -9px;
       }
-      @include lg {
+      @include lg{
         // margin-bottom: -9px;
       }
 
       img {
-        height: 52vh;
+        height: 70vh;
         @include md {
           height: 48vh;
         }
@@ -84,21 +83,21 @@
 /* =============
     music player
 ============= */
-
-#ascend {
-  background-color: $illeniumRedopacity;
+#rodeo {
+  background-color: $travisRedOpacity;
   margin-bottom: rem-calc(100);
   // @include md{
   //   margin-bottom: rem-calc(150);
   // }
+
   h2 {
-    color: $illeniumRed;
+    color: $travisRed;
   }
 
   p {
     padding-top: 45px;
     padding-bottom: 0;
-    @include md {
+    @include md{
       padding-top: 90px;
       padding-bottom: 0;
     }
@@ -118,7 +117,7 @@
     margin-right: 38px;
     margin-bottom: 230px;
   }
-  @include lg {
+  @include lg{
     margin-bottom: 300px;
   }
   @include xl {
