@@ -816,7 +816,7 @@ textarea {
 }
 @media (min-width: 1200px) {
   #kendrick div aside img {
-    height: 130vh;
+    height: 140vh;
   }
 }
 
@@ -921,6 +921,11 @@ textarea {
     right: 40px;
   }
 }
+@media (min-width: 1200px) {
+  #travis div aside {
+    padding-right: 140px;
+  }
+}
 #travis div aside img {
   height: 70vh;
 }
@@ -936,7 +941,7 @@ textarea {
 }
 @media (min-width: 1200px) {
   #travis div aside img {
-    height: 120vh;
+    height: 150vh;
   }
 }
 
