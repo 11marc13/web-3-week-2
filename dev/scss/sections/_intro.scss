@@ -2,7 +2,12 @@
     intro
 ============= */
 #intro {
-  padding-bottom: 20px;
+  // padding-bottom: 20px;
+  // padding-top:30px;
+  // padding: 25px;
+  padding-left:23px;
+  padding-right: 23px;
+  padding-bottom: 40px;
 
   div {
     @include md {
@@ -13,6 +18,12 @@
       padding-bottom: 120px;
       padding-left: 120px;
       padding-right: 120px;
+    }
+
+    @include xl{
+      padding-left: 350px;
+      padding-right: 350px;
+      // padding-bottom: 400px;
     }
   }
 }

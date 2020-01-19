@@ -346,19 +346,6 @@ template {
 /* =============
     Base
 ============= */
-figure {
-  padding: 0;
-  margin: 0;
-}
-
-ul {
-  padding: 0;
-  margin: 0;
-}
-ul li {
-  list-style: none;
-}
-
 .music-player > div {
   display: flex;
   flex: 2;
@@ -369,6 +356,12 @@ ul li {
   .music-player > div {
     padding-top: 55px;
     padding-bottom: 55px;
+  }
+}
+@media (min-width: 1200px) {
+  .music-player > div {
+    padding-top: 80px;
+    padding-bottom: 80px;
   }
 }
 .music-player > div img {
@@ -388,16 +381,38 @@ ul li {
     padding-bottom: 0;
   }
 }
+@media (min-width: 1200px) {
+  .music-player > div img {
+    height: 50vh;
+    padding-left: 80px;
+  }
+}
 
 audio {
   padding-left: 23px;
-  padding-top: 15px;
+  padding-top: 10px;
 }
 @media (min-width: 768px) {
   audio {
     padding-left: 60px;
     padding-top: 20px;
     width: 50vw;
+  }
+}
+@media (min-width: 1200px) {
+  audio {
+    padding-left: 80px;
+  }
+}
+
+.music-player-text {
+  padding-top: 45px;
+  padding-bottom: 0;
+}
+@media (min-width: 1200px) {
+  .music-player-text {
+    padding-top: 230px;
+    padding-bottom: 0;
   }
 }
 
@@ -419,6 +434,11 @@ h1 {
     font-size: 40px;
   }
 }
+@media (min-width: 1200px) {
+  h1 {
+    font-size: 50px;
+  }
+}
 
 h2 {
   font-size: 20px;
@@ -432,12 +452,18 @@ h2 {
     padding-left: 60px;
   }
 }
+@media (min-width: 1200px) {
+  h2 {
+    font-size: 40px;
+    padding-left: 80px;
+  }
+}
 
 h3 {
   font-family: "itc-avant-garde-pro", sans-serif;
-  font-weight: 500;
+  font-weight: 700;
   font-style: normal;
-  padding-top: 10px;
+  padding-top: 5px;
   line-height: 17px;
 }
 @media (min-width: 768px) {
@@ -445,6 +471,12 @@ h3 {
     font-size: 25px;
     line-height: 30px;
     padding-top: 13px;
+  }
+}
+@media (min-width: 1200px) {
+  h3 {
+    font-size: 30px;
+    line-height: 33px;
   }
 }
 
@@ -463,14 +495,14 @@ h4 {
 
 h5 {
   font-family: "itc-avant-garde-pro", sans-serif;
-  font-weight: 700;
+  font-weight: 900;
   font-style: normal;
-  font-size: 7.25rem;
+  font-size: 8.4375rem;
   opacity: 0.25;
 }
 @media (min-width: 768px) {
   h5 {
-    font-size: 200px;
+    font-size: 300px;
   }
 }
 
@@ -485,18 +517,36 @@ h1, h3, p {
     padding-right: 60px;
   }
 }
+@media (min-width: 1200px) {
+  h1, h3, p {
+    padding-left: 78px;
+    padding-right: 120px;
+  }
+}
 
 p {
+  font-family: "ebony", sans-serif;
+  line-height: 28px;
   line-height: 18px;
   font-size: 15px;
   padding-top: 10px;
-  padding-bottom: 10px;
+  padding-bottom: 80px;
 }
 @media (min-width: 768px) {
   p {
     font-size: 20px;
     line-height: 30px;
     padding-bottom: 80px;
+  }
+}
+@media (min-width: 1200px) {
+  p {
+    padding-bottom: 275px;
+  }
+}
+@media (min-width: 1200px) {
+  p {
+    line-height: 35px;
   }
 }
 
@@ -537,7 +587,9 @@ textarea {
     intro
 ============= */
 #intro {
-  padding-bottom: 20px;
+  padding-left: 23px;
+  padding-right: 23px;
+  padding-bottom: 40px;
 }
 @media (min-width: 768px) {
   #intro div {
@@ -549,6 +601,12 @@ textarea {
     padding-bottom: 120px;
     padding-left: 120px;
     padding-right: 120px;
+  }
+}
+@media (min-width: 1200px) {
+  #intro div {
+    padding-left: 350px;
+    padding-right: 350px;
   }
 }
 
@@ -578,6 +636,7 @@ textarea {
 }
 #illenium div article div {
   position: relative;
+  /** number 5 **/
 }
 #illenium div article div aside {
   position: absolute;
@@ -596,8 +655,14 @@ textarea {
   color: #F6450E;
   margin: 0;
 }
-#illenium div p span {
+#illenium div article p span {
   display: none;
+}
+@media (min-width: 1200px) {
+  #illenium div article p span {
+    display: inherit;
+    padding-top: 15px;
+  }
 }
 #illenium div aside {
   position: absolute;
@@ -610,7 +675,7 @@ textarea {
   }
 }
 #illenium div aside img {
-  height: 50vh;
+  height: 52vh;
 }
 @media (min-width: 768px) {
   #illenium div aside img {
@@ -622,6 +687,11 @@ textarea {
     height: 120vh;
   }
 }
+@media (min-width: 1200px) {
+  #illenium div aside img {
+    height: 120vh;
+  }
+}
 
 /* =============
     music player
@@ -629,15 +699,127 @@ textarea {
 #ascend {
   background-color: #FDD0C2;
 }
-@media (min-width: 768px) {
-  #ascend {
-    margin: 0 38px;
-  }
-}
 #ascend h2 {
   color: #F6450E;
 }
 #ascend article {
   padding-top: 20px;
   padding-bottom: 1.3125rem;
+}
+@media (min-width: 768px) {
+  #ascend {
+    margin: 0 38px;
+  }
+}
+@media (min-width: 1200px) {
+  #ascend {
+    margin-left: 180px;
+  }
+}
+
+/* =============
+    illenium
+============= */
+#kendrick div {
+  display: grid;
+  grid-template-areas: "text ." "text .";
+  grid-template-columns: 50% auto;
+  position: relative;
+}
+#kendrick div article {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 2;
+  -ms-grid-column: 1;
+  padding-top: 25px;
+  grid-area: text;
+}
+@media (min-width: 768px) {
+  #kendrick div article {
+    padding-top: 50px;
+  }
+}
+#kendrick div article h1 {
+  color: #F6450E;
+}
+#kendrick div article div {
+  position: relative;
+  /** number 5 **/
+}
+#kendrick div article div aside {
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  top: 0;
+  left: -20px;
+}
+@media (min-width: 768px) {
+  #kendrick div article div aside {
+    bottom: 60px;
+    left: -28px;
+  }
+}
+#kendrick div article div aside h5 {
+  color: #F6450E;
+  margin: 0;
+}
+#kendrick div article p span {
+  display: none;
+}
+@media (min-width: 1200px) {
+  #kendrick div article p span {
+    display: inherit;
+    padding-top: 15px;
+  }
+}
+#kendrick div aside {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+@media (min-width: 768px) {
+  #kendrick div aside {
+    right: 40px;
+  }
+}
+#kendrick div aside img {
+  height: 52vh;
+}
+@media (min-width: 768px) {
+  #kendrick div aside img {
+    height: 48vh;
+  }
+}
+@media (min-width: 992px) {
+  #kendrick div aside img {
+    height: 120vh;
+  }
+}
+@media (min-width: 1200px) {
+  #kendrick div aside img {
+    height: 120vh;
+  }
+}
+
+/* =============
+    music player
+============= */
+#good-kid {
+  background-color: #FDD0C2;
+}
+#good-kid h2 {
+  color: #F6450E;
+}
+#good-kid article {
+  padding-top: 20px;
+  padding-bottom: 1.3125rem;
+}
+@media (min-width: 768px) {
+  #good-kid {
+    margin: 0 38px;
+  }
+}
+@media (min-width: 1200px) {
+  #good-kid {
+    margin-left: 180px;
+  }
 }

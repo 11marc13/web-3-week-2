@@ -2,133 +2,61 @@
     Base
 ============= */
 
-figure {
-  padding: 0;
-  margin: 0;
-}
-
-ul {
-  padding: 0;
-  margin: 0;
-
-  li {
-    list-style: none;
-  }
-
-}
-
-
-// body{
-//   overflow: hidden;
-// }
-
-// .section-content {
-//   padding: 40px 0;
-//   @include md {
-//     padding: 50px 0;
-//   }
-// }
-
-
-
 .music-player {
-  >div {
+  > div {
     display: flex;
     flex: 2;
     flex-direction: row;
     padding-top: rem-calc(21);
-    @include md{
-        padding-top: 55px;
-        padding-bottom: 55px;
+    @include md {
+      padding-top: 55px;
+      padding-bottom: 55px;
+    }
+    @include xl{
+      padding-top: 80px;
+      padding-bottom: 80px;
     }
 
     img {
       // grid-area: album;
       height: 25vh;
       padding-left: 23px;
-      @include md{
+      @include md {
         height: 20vh;
         padding-left: 60px;
         padding-bottom: 20px;
       }
-      @include lg{
+      @include lg {
         height: 70vh;
         padding-bottom: 0;
+      }
+      @include xl{
+        height: 50vh;
+        padding-left: 80px;
       }
     }
   }
 }
 
-
-
-audio{
+audio {
   padding-left: 23px;
-  padding-top: 15px;
-  @include md{
+  padding-top: 10px;
+  @include md {
     padding-left: 60px;
     padding-top: 20px;
     width: 50vw;
   }
+  @include xl{
+      padding-left: 80px;
+  }
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// .music-player{
-//   display: grid;
-//   grid-template-columns: 50%, auto;
-//   // grid-template-rows: (2, 40vh);
-//   grid-template-areas:
-//   "album info";
-//
-//
-//   aside{
-//     grid-area:album;
-//   }
-//
-//   div{
-//     grid-area: info;
-//   }
-//
-//
-//   article{
-//     grid-area: player;
-//   }
-//
-//
-//
-// }
+.music-player-text{
+    padding-top: 45px;
+    padding-bottom: 0;
+    @include xl{
+        padding-top: 230px;
+        padding-bottom: 0;
+      }
+    }
