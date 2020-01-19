@@ -1177,7 +1177,7 @@ textarea {
 }
 @media (min-width: 768px) {
   #blonde {
-    margin: 0 38px 14.375rem;
+    margin: 0 38px 6.25rem;
   }
 }
 @media (min-width: 992px) {
@@ -1273,7 +1273,7 @@ textarea {
 }
 @media (min-width: 768px) {
   #mac div aside img {
-    height: 66vh;
+    height: 50vh;
   }
 }
 @media (min-width: 992px) {
@@ -1304,7 +1304,7 @@ textarea {
 }
 @media (min-width: 768px) {
   #faces p {
-    padding-top: 90px;
+    padding-top: 85px;
     padding-bottom: 0;
   }
 }
