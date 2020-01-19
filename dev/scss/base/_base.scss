@@ -56,8 +56,16 @@ footer{
   background-color: $footerBlue;
   padding-top: 40px;
   padding-bottom: 40px;
+  @include md{
+    padding: 55px 30px;
+    // padding-left: 30px;
+    // padding-right: 30px;
+  }
   h2{
     color: white;
     text-align: center;
+    @include md{
+      line-height: 50px;
+    }
   }
 }

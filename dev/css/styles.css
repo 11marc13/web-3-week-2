@@ -410,9 +410,19 @@ footer {
   padding-top: 40px;
   padding-bottom: 40px;
 }
+@media (min-width: 768px) {
+  footer {
+    padding: 55px 30px;
+  }
+}
 footer h2 {
   color: white;
   text-align: center;
+}
+@media (min-width: 768px) {
+  footer h2 {
+    line-height: 50px;
+  }
 }
 
 /* =============
