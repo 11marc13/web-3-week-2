@@ -1279,7 +1279,6 @@ textarea {
 @media (min-width: 992px) {
   #mac div aside img {
     height: 130vh;
-    padding-right: 100px;
   }
 }
 @media (min-width: 1200px) {
