@@ -1,8 +1,8 @@
 /* =============
-    travis
+    mac
 ============= */
 
-#travis {
+#mac {
   div {
     display: grid;
     grid-template-areas: "text ." "text .";
@@ -17,7 +17,7 @@
       }
 
       h1 {
-        color: $travisRed;
+        color: $macBlue;
       }
 
       div {
@@ -35,7 +35,7 @@
           }
 
           h5 {
-            color: $travisRed;
+            color: $macBlue;
             margin: 0;
           }
         }
@@ -75,7 +75,7 @@
       }
 
       img {
-        height: 70vh;
+        height: 45vh;
         @include md {
           height: 66vh;
         }
@@ -94,18 +94,18 @@
     music player
 ============= */
 
-#rodeo {
-  background-color: $travisRedOpacity;
+#faces {
+  background-color: $macBlueOpacity;
   margin-bottom: rem-calc(50);
   // @include md{
   //   margin-bottom: rem-calc(150);
   // }
   h2 {
-    color: $travisRed;
+    color: $macBlue;
   }
 
   p {
-    padding-top: 45px;
+    padding-top: 40px;
     padding-bottom: 0;
     @include md {
       padding-top: 90px;
@@ -133,6 +133,7 @@
   }
   @include xl {
     margin-left: 180px;
+    margin-right: 0;
     margin-bottom: rem-calc(175);
   }
 }

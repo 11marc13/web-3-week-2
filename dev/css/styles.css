@@ -1035,7 +1035,6 @@ textarea {
 @media (min-width: 1200px) {
   #rodeo {
     margin-left: 180px;
-    margin-right: 0;
     margin-bottom: 10.9375rem;
   }
 }
@@ -1190,6 +1189,150 @@ textarea {
   #blonde {
     margin-right: 180px;
     margin-left: 0;
+    margin-bottom: 10.9375rem;
+  }
+}
+
+/* =============
+    mac
+============= */
+#mac div {
+  display: grid;
+  grid-template-areas: "text ." "text .";
+  grid-template-columns: 50% auto;
+  position: relative;
+}
+#mac div article {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 2;
+  -ms-grid-column: 1;
+  padding-top: 25px;
+  grid-area: text;
+}
+@media (min-width: 768px) {
+  #mac div article {
+    padding-top: 50px;
+  }
+}
+#mac div article h1 {
+  color: #3189F9;
+}
+#mac div article div {
+  position: relative;
+  /** number 5 **/
+}
+#mac div article div aside {
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  top: 0;
+  left: -20px;
+}
+@media (min-width: 768px) {
+  #mac div article div aside {
+    bottom: 60px;
+    left: -28px;
+  }
+}
+#mac div article div aside h5 {
+  color: #3189F9;
+  margin: 0;
+}
+@media (min-width: 768px) {
+  #mac div article p {
+    padding-bottom: 300px;
+  }
+}
+#mac div article p span {
+  display: none;
+}
+@media (min-width: 1200px) {
+  #mac div article p span {
+    display: inherit;
+    padding-top: 15px;
+  }
+}
+#mac div aside {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin-bottom: -9px;
+}
+@media (min-width: 768px) {
+  #mac div aside {
+    right: 40px;
+  }
+}
+@media (min-width: 1200px) {
+  #mac div aside {
+    padding-right: 140px;
+  }
+}
+#mac div aside img {
+  height: 45vh;
+}
+@media (min-width: 768px) {
+  #mac div aside img {
+    height: 66vh;
+  }
+}
+@media (min-width: 992px) {
+  #mac div aside img {
+    height: 130vh;
+    padding-right: 100px;
+  }
+}
+@media (min-width: 1200px) {
+  #mac div aside img {
+    height: 140vh;
+  }
+}
+
+/* =============
+    music player
+============= */
+#faces {
+  background-color: #CBE1FE;
+  margin-bottom: 3.125rem;
+}
+#faces h2 {
+  color: #3189F9;
+}
+#faces p {
+  padding-top: 40px;
+  padding-bottom: 0;
+}
+@media (min-width: 768px) {
+  #faces p {
+    padding-top: 90px;
+    padding-bottom: 0;
+  }
+}
+@media (min-width: 1200px) {
+  #faces p {
+    padding-bottom: 0;
+  }
+}
+#faces article {
+  padding-top: 20px;
+  padding-bottom: 1.3125rem;
+}
+@media (min-width: 768px) {
+  #faces {
+    margin-left: 38px;
+    margin-right: 38px;
+    margin-bottom: 6.25rem;
+  }
+}
+@media (min-width: 992px) {
+  #faces {
+    margin-bottom: 6.875rem;
+  }
+}
+@media (min-width: 1200px) {
+  #faces {
+    margin-left: 180px;
+    margin-right: 0;
     margin-bottom: 10.9375rem;
   }
 }
