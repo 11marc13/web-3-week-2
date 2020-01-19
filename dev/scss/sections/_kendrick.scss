@@ -32,7 +32,8 @@
           right: -5;
           @include md {
             bottom: 60px;
-            left: -28px;
+            left: 0px;
+            right: -11px;
           }
           h5 {
             color: $kendrickblue;
@@ -59,13 +60,13 @@
       // right: 1;
       // left: 700;
       @include md {
-        right: 40px;
+        // right: 0px;
       }
 
       img {
         height: 55vh;
         @include md {
-          height: 48vh;
+          height: 55vh;
         }
         @include lg {
           height: 120vh;
@@ -90,6 +91,13 @@
   p{
     padding-top: 36px;
     padding-bottom: 0;
+    @include md{
+      padding-top: 85px;
+      padding-bottom: 0;
+    }
+    // @include md{
+    //   padding-bottom: 0;
+    // }
   }
 
   article {

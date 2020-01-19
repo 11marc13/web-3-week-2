@@ -372,7 +372,7 @@ template {
   .music-player > div img {
     height: 20vh;
     padding-left: 60px;
-    padding-bottom: 20px;
+    padding-bottom: 0px;
   }
 }
 @media (min-width: 992px) {
@@ -696,6 +696,12 @@ textarea {
   padding-top: 45px;
   padding-bottom: 0;
 }
+@media (min-width: 768px) {
+  #ascend p {
+    padding-top: 90px;
+    padding-bottom: 0;
+  }
+}
 @media (min-width: 1200px) {
   #ascend p {
     padding-top: 230px;
@@ -708,7 +714,9 @@ textarea {
 }
 @media (min-width: 768px) {
   #ascend {
-    margin: 0 38px;
+    margin-left: 38px;
+    margin-right: 38px;
+    margin-bottom: 230px;
   }
 }
 @media (min-width: 1200px) {
@@ -755,7 +763,8 @@ textarea {
 @media (min-width: 768px) {
   #kendrick div article div aside {
     bottom: 60px;
-    left: -28px;
+    left: 0px;
+    right: -11px;
   }
 }
 #kendrick div article div aside h5 {
@@ -775,17 +784,12 @@ textarea {
   position: absolute;
   bottom: 0;
 }
-@media (min-width: 768px) {
-  #kendrick div aside {
-    right: 40px;
-  }
-}
 #kendrick div aside img {
   height: 55vh;
 }
 @media (min-width: 768px) {
   #kendrick div aside img {
-    height: 48vh;
+    height: 55vh;
   }
 }
 @media (min-width: 992px) {
@@ -811,6 +815,12 @@ textarea {
 #good-kid p {
   padding-top: 36px;
   padding-bottom: 0;
+}
+@media (min-width: 768px) {
+  #good-kid p {
+    padding-top: 85px;
+    padding-bottom: 0;
+  }
 }
 #good-kid article {
   padding-top: 20px;

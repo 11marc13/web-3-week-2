@@ -81,6 +81,9 @@
 #ascend {
   background-color: $illeniumRedopacity;
   margin-bottom: rem-calc(100);
+  // @include md{
+  //   margin-bottom: rem-calc(150);
+  // }
 
   h2 {
     color: $illeniumRed;
@@ -89,6 +92,10 @@
   p {
     padding-top: 45px;
     padding-bottom: 0;
+    @include md{
+      padding-top: 90px;
+      padding-bottom: 0;
+    }
     @include xl {
       padding-top: 230px;
       padding-bottom: 0;
@@ -100,7 +107,11 @@
     padding-bottom: rem-calc(21);
   }
   @include md {
-    margin: 0 38px;
+    // margin: 0 38px;
+    margin-left: 38px;
+    margin-right: 38px;
+    margin-bottom: 230px;
+
     // padding-top: 20px;
   }
   @include xl {
