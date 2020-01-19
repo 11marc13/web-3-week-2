@@ -1,6 +1,7 @@
 /* =============
     travis
 ============= */
+
 #travis {
   div {
     display: grid;
@@ -34,16 +35,17 @@
           }
 
           h5 {
-            color: $travisRedOpacity;
+            color: $travisRed;
             margin: 0;
           }
         }
       }
 
       p {
-        @include md{
+        @include md {
           padding-bottom: 300px;
         }
+
         span {
           display: none;
           @include xl {
@@ -64,10 +66,10 @@
         right: 40px;
         // margin-bottom: -9px;
       }
-      @include lg{
+      @include lg {
         // margin-bottom: -9px;
       }
-      @include xl{
+      @include xl {
         padding-right: 140px;
         // left: -10px;
       }
@@ -78,7 +80,8 @@
           height: 66vh;
         }
         @include lg {
-          height: 120vh;
+          height: 130vh;
+          padding-right: 100px;
         }
         @include xl {
           height: 150vh;
@@ -90,13 +93,13 @@
 /* =============
     music player
 ============= */
+
 #rodeo {
   background-color: $travisRedOpacity;
-  margin-bottom: rem-calc(100);
+  margin-bottom: rem-calc(50);
   // @include md{
   //   margin-bottom: rem-calc(150);
   // }
-
   h2 {
     color: $travisRed;
   }
@@ -104,7 +107,7 @@
   p {
     padding-top: 45px;
     padding-bottom: 0;
-    @include md{
+    @include md {
       padding-top: 90px;
       padding-bottom: 0;
     }
@@ -122,10 +125,11 @@
     // margin: 0 38px;
     margin-left: 38px;
     margin-right: 38px;
+      margin-bottom: rem-calc(100);
     // margin-bottom: 230px;
   }
-  @include lg{
-    margin-bottom: 300px;
+  @include lg {
+    // margin-bottom: 300px;
   }
   @include xl {
     margin-left: 180px;

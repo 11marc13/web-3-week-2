@@ -42,6 +42,13 @@
           h5 {
             color: $kendrickblue;
             margin: 0;
+            padding-left: 128px;
+            @include md{
+              padding-left: 225px;
+            }
+            @include lg{
+              padding-left: 360px;
+            }
           }
         }
       }
@@ -83,7 +90,8 @@
           height: 60vh;
         }
         @include lg {
-          height: 120vh;
+          height: 130vh;
+          padding-left: 80px;
         }
         @include xl {
           height: 140vh;
@@ -97,7 +105,7 @@
 ============= */
 #good-kid {
   background-color: $kendrickblueopacity;
-  margin-bottom: rem-calc(100);
+    margin-bottom: rem-calc(50);
 
   h2 {
     color: $kendrickblue;
@@ -121,7 +129,7 @@
   }
   @include md {
     margin: 0 38px;
-    margin-bottom: rem-calc(110);
+    margin-bottom: rem-calc(100);
     // padding-top: 20px;
   }
   @include xl {

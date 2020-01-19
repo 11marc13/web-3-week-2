@@ -1,7 +1,6 @@
 /* =============
     illenium
 ============= */
-
 #illenium {
   div {
     display: grid;
@@ -42,9 +41,10 @@
       }
 
       p {
-        @include md{
+        @include md {
           padding-bottom: 300px;
         }
+
         span {
           display: none;
           @include xl {
@@ -76,7 +76,7 @@
           height: 52vh;
         }
         @include lg {
-          height: 120vh;
+          height: 130vh;
         }
         @include xl {
           height: 120vh;
@@ -88,10 +88,12 @@
 /* =============
     music player
 ============= */
-
 #ascend {
   background-color: $illeniumRedopacity;
-  margin-bottom: rem-calc(100);
+  margin-bottom: rem-calc(50);
+  @include md{
+    margin-bottom: rem-calc(100);
+  }
   // @include md{
   //   margin-bottom: rem-calc(150);
   // }
@@ -123,7 +125,7 @@
     // margin-bottom: 230px;
   }
   @include lg {
-    margin-bottom: 300px;
+    // margin-bottom: 300px;
   }
   @include xl {
     margin-left: 180px;

@@ -679,7 +679,7 @@ textarea {
 }
 @media (min-width: 992px) {
   #illenium div aside img {
-    height: 120vh;
+    height: 130vh;
   }
 }
 @media (min-width: 1200px) {
@@ -693,7 +693,12 @@ textarea {
 ============= */
 #ascend {
   background-color: #FDD0C2;
-  margin-bottom: 6.25rem;
+  margin-bottom: 3.125rem;
+}
+@media (min-width: 768px) {
+  #ascend {
+    margin-bottom: 6.25rem;
+  }
 }
 #ascend h2 {
   color: #F6450E;
@@ -721,11 +726,6 @@ textarea {
   #ascend {
     margin-left: 38px;
     margin-right: 38px;
-  }
-}
-@media (min-width: 992px) {
-  #ascend {
-    margin-bottom: 300px;
   }
 }
 @media (min-width: 1200px) {
@@ -779,6 +779,17 @@ textarea {
 #kendrick div article div aside h5 {
   color: #366F91;
   margin: 0;
+  padding-left: 128px;
+}
+@media (min-width: 768px) {
+  #kendrick div article div aside h5 {
+    padding-left: 225px;
+  }
+}
+@media (min-width: 992px) {
+  #kendrick div article div aside h5 {
+    padding-left: 360px;
+  }
 }
 @media (min-width: 768px) {
   #kendrick div article p {
@@ -820,7 +831,8 @@ textarea {
 }
 @media (min-width: 992px) {
   #kendrick div aside img {
-    height: 120vh;
+    height: 130vh;
+    padding-left: 80px;
   }
 }
 @media (min-width: 1200px) {
@@ -834,7 +846,7 @@ textarea {
 ============= */
 #good-kid {
   background-color: #CDDBE4;
-  margin-bottom: 6.25rem;
+  margin-bottom: 3.125rem;
 }
 #good-kid h2 {
   color: #366F91;
@@ -856,7 +868,7 @@ textarea {
 @media (min-width: 768px) {
   #good-kid {
     margin: 0 38px;
-    margin-bottom: 6.875rem;
+    margin-bottom: 6.25rem;
   }
 }
 @media (min-width: 1200px) {
@@ -907,7 +919,7 @@ textarea {
   }
 }
 #travis div article div aside h5 {
-  color: #F4CCCD;
+  color: #D43438;
   margin: 0;
 }
 @media (min-width: 768px) {
@@ -950,7 +962,8 @@ textarea {
 }
 @media (min-width: 992px) {
   #travis div aside img {
-    height: 120vh;
+    height: 130vh;
+    padding-right: 100px;
   }
 }
 @media (min-width: 1200px) {
@@ -964,7 +977,7 @@ textarea {
 ============= */
 #rodeo {
   background-color: #F4CCCD;
-  margin-bottom: 6.25rem;
+  margin-bottom: 3.125rem;
 }
 #rodeo h2 {
   color: #D43438;
@@ -992,11 +1005,7 @@ textarea {
   #rodeo {
     margin-left: 38px;
     margin-right: 38px;
-  }
-}
-@media (min-width: 992px) {
-  #rodeo {
-    margin-bottom: 300px;
+    margin-bottom: 6.25rem;
   }
 }
 @media (min-width: 1200px) {
@@ -1048,8 +1057,19 @@ textarea {
   }
 }
 #frank div article div aside h5 {
-  color: #D1D8D0;
+  color: #476445;
   margin: 0;
+  padding-left: 128px;
+}
+@media (min-width: 768px) {
+  #frank div article div aside h5 {
+    padding-left: 225px;
+  }
+}
+@media (min-width: 992px) {
+  #frank div article div aside h5 {
+    padding-left: 360px;
+  }
 }
 @media (min-width: 768px) {
   #frank div article p {
@@ -1092,6 +1112,7 @@ textarea {
 @media (min-width: 992px) {
   #frank div aside img {
     height: 120vh;
+    padding-left: 40px;
   }
 }
 @media (min-width: 1200px) {
@@ -1105,7 +1126,7 @@ textarea {
 ============= */
 #blonde {
   background-color: #D1D8D0;
-  margin-bottom: 6.25rem;
+  margin-bottom: 3.125rem;
 }
 #blonde h2 {
   color: #476445;
@@ -1126,8 +1147,7 @@ textarea {
 }
 @media (min-width: 768px) {
   #blonde {
-    margin: 0 38px;
-    margin-bottom: 14.375rem;
+    margin: 0 38px 14.375rem;
   }
 }
 @media (min-width: 1200px) {
