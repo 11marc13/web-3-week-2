@@ -1035,6 +1035,7 @@ textarea {
 @media (min-width: 1200px) {
   #rodeo {
     margin-left: 180px;
+    margin-right: 0;
     margin-bottom: 10.9375rem;
   }
 }
@@ -1283,7 +1284,8 @@ textarea {
 }
 @media (min-width: 1200px) {
   #mac div aside img {
-    height: 140vh;
+    height: 135vh;
+    margin-right: -180px;
   }
 }
 
