@@ -657,6 +657,7 @@ textarea {
   position: absolute;
   bottom: 0;
   right: 0;
+  margin-bottom: -9px;
 }
 @media (min-width: 768px) {
   #illenium div aside {
@@ -704,7 +705,6 @@ textarea {
 }
 @media (min-width: 1200px) {
   #ascend p {
-    padding-top: 230px;
     padding-bottom: 0;
   }
 }
@@ -719,6 +719,11 @@ textarea {
     margin-bottom: 230px;
   }
 }
+@media (min-width: 992px) {
+  #ascend {
+    margin-bottom: 300px;
+  }
+}
 @media (min-width: 1200px) {
   #ascend {
     margin-left: 180px;
@@ -726,7 +731,7 @@ textarea {
 }
 
 /* =============
-    illenium
+    kendrick
 ============= */
 #kendrick div {
   display: grid;
@@ -783,6 +788,18 @@ textarea {
 #kendrick div aside {
   position: absolute;
   bottom: 0;
+  margin-bottom: -9px;
+}
+@media (min-width: 768px) {
+  #kendrick div aside {
+    left: 15px;
+    margin-bottom: -9px;
+  }
+}
+@media (min-width: 992px) {
+  #kendrick div aside {
+    left: 20px;
+  }
 }
 #kendrick div aside img {
   height: 55vh;
@@ -799,7 +816,7 @@ textarea {
 }
 @media (min-width: 1200px) {
   #kendrick div aside img {
-    height: 120vh;
+    height: 130vh;
   }
 }
 
@@ -833,6 +850,6 @@ textarea {
 }
 @media (min-width: 1200px) {
   #good-kid {
-    margin-left: 180px;
+    margin-right: 180px;
   }
 }
