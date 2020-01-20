@@ -1,6 +1,7 @@
 /* =============
     Base
 ============= */
+
 .music-player {
   > div {
     display: flex;
@@ -50,26 +51,25 @@ audio {
   }
 }
 
-
-
-footer{
+footer {
   background-color: $footerBlue;
   padding-top: 40px;
   padding-bottom: 40px;
-  @include md{
+  @include md {
     padding: 55px 30px;
     // padding-left: 30px;
     // padding-right: 30px;
   }
-  h2{
+  @include lg {
+    padding-left: 160px;
+    padding-right: 160px;
+  }
+
+  h2 {
     color: white;
     text-align: center;
-    @include md{
+    @include md {
       line-height: 50px;
-    }
-    @include lg{
-      padding-left: 160px;
-      padding-right: 160px;
     }
   }
 }
