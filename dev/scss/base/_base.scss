@@ -64,12 +64,20 @@ footer {
     padding-left: 160px;
     padding-right: 160px;
   }
+  @include xl{
+    padding-left: 200px;
+    padding-right: 200px;
+  }
 
   h2 {
     color: white;
     text-align: center;
     @include md {
       line-height: 50px;
+    }
+    @include xl{
+      line-height: 55px;
+      font-size: 30px;
     }
   }
 }

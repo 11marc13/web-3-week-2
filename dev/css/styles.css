@@ -421,6 +421,12 @@ footer {
     padding-right: 160px;
   }
 }
+@media (min-width: 1200px) {
+  footer {
+    padding-left: 200px;
+    padding-right: 200px;
+  }
+}
 footer h2 {
   color: white;
   text-align: center;
@@ -428,6 +434,12 @@ footer h2 {
 @media (min-width: 768px) {
   footer h2 {
     line-height: 50px;
+  }
+}
+@media (min-width: 1200px) {
+  footer h2 {
+    line-height: 55px;
+    font-size: 30px;
   }
 }
 
