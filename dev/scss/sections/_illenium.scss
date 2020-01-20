@@ -1,6 +1,7 @@
 /* =============
     illenium
 ============= */
+
 #illenium {
   div {
     display: grid;
@@ -88,10 +89,11 @@
 /* =============
     music player
 ============= */
+
 #ascend {
   background-color: $illeniumRedopacity;
   margin-bottom: rem-calc(50);
-  @include md{
+  @include md {
     margin-bottom: rem-calc(100);
   }
   // @include md{

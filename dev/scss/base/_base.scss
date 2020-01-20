@@ -1,7 +1,6 @@
 /* =============
     Base
 ============= */
-
 .music-player {
   > div {
     display: flex;
@@ -64,7 +63,7 @@ footer {
     padding-left: 160px;
     padding-right: 160px;
   }
-  @include xl{
+  @include xl {
     padding-left: 200px;
     padding-right: 200px;
   }
@@ -75,7 +74,7 @@ footer {
     @include md {
       line-height: 50px;
     }
-    @include xl{
+    @include xl {
       line-height: 55px;
       font-size: 30px;
     }

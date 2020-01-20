@@ -1,7 +1,6 @@
 /* =============
     travis
 ============= */
-
 #travis {
   div {
     display: grid;
@@ -93,7 +92,6 @@
 /* =============
     music player
 ============= */
-
 #rodeo {
   background-color: $travisRedOpacity;
   margin-bottom: rem-calc(50);
@@ -125,7 +123,7 @@
     // margin: 0 38px;
     margin-left: 38px;
     margin-right: 38px;
-      margin-bottom: rem-calc(100);
+    margin-bottom: rem-calc(100);
     // margin-bottom: 230px;
   }
   @include lg {

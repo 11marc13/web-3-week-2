@@ -1,7 +1,6 @@
 /* =============
     frank
 ============= */
-
 #frank {
   div {
     display: grid;
@@ -44,14 +43,14 @@
             color: $frankGreen;
             margin: 0;
             padding-left: 128px;
-            @include md{
+            @include md {
               padding-left: 225px;
             }
             @include lg {
               padding-left: 338px;
             }
-            @include xl{
-                padding-left: 559px;
+            @include xl {
+              padding-left: 559px;
             }
           }
         }
@@ -109,7 +108,6 @@
 /* =============
     music player
 ============= */
-
 #blonde {
   background-color: $frankGreenOpacity;
   margin-bottom: rem-calc(50);
@@ -138,12 +136,12 @@
     margin: 0 38px rem-calc(100);
     // padding-top: 20px;
   }
-  @include lg{
+  @include lg {
     margin-bottom: rem-calc(110);
   }
   @include xl {
     margin-right: 180px;
     margin-left: 0;
-      margin-bottom: rem-calc(175);
+    margin-bottom: rem-calc(175);
   }
 }
