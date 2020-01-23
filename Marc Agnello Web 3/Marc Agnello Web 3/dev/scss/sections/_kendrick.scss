@@ -1,0 +1,147 @@
+/* =============
+    kendrick
+============= */
+#kendrick {
+  div {
+    display: grid;
+    grid-template-areas: ". text" ". text";
+    grid-template-columns: 50% auto;
+    position: relative;
+    // grid-template-rows:
+    article {
+      padding-top: 25px;
+      grid-area: text;
+      @include md {
+        padding-top: 50px;
+      }
+
+      h1 {
+        color: $kendrickblue;
+      }
+
+      div {
+        position: relative;
+        /** number 4 **/
+        aside {
+          position: absolute;
+          height: 100px;
+          width: 100px;
+          // margin-left: 124px;
+          // margin-right: 0px;
+          // padding-right:
+          top: 0;
+          // overflow: hidden;
+          // left: -35;
+          right: -5;
+          @include md {
+            bottom: 60px;
+            left: 0;
+            right: -11px;
+          }
+
+          h5 {
+            color: $kendrickblue;
+            margin: 0;
+            padding-left: 128px;
+            @include md{
+              padding-left: 225px;
+            }
+            @include lg{
+              padding-left: 338px;
+            }
+            @include xl{
+            padding-left: 559px;
+              // margin-right: 0;
+            }
+          }
+        }
+      }
+
+      p {
+        @include md{
+          padding-bottom: 300px;
+        }
+        span {
+          display: none;
+          @include xl {
+            display: inherit;
+            padding-top: 15px;
+          }
+        }
+      }
+    }
+
+    aside {
+      position: absolute;
+      bottom: 0;
+      margin-bottom: -9px;
+      // top: 20;
+      // right: 1;
+      // left: 700;
+      @include md {
+        // right: 0px;
+        left: 15px;
+        margin-bottom: -9px;
+      }
+      @include lg {
+        left: 20px;
+        // margin-bottom: -9px;
+      }
+
+      img {
+        height: 55vh;
+        @include md {
+          height: 60vh;
+        }
+        @include lg {
+          height: 130vh;
+          padding-left: 80px;
+        }
+        @include xl {
+          height: 130vh;
+        }
+      }
+    }
+  }
+}
+/* =============
+    music player
+============= */
+#good-kid {
+  background-color: $kendrickblueopacity;
+    margin-bottom: rem-calc(50);
+
+  h2 {
+    color: $kendrickblue;
+  }
+
+  p {
+    padding-top: 36px;
+    padding-bottom: 0;
+    @include md {
+      padding-top: 85px;
+      padding-bottom: 0;
+    }
+    // @include md{
+    //   padding-bottom: 0;
+    // }
+  }
+
+  article {
+    padding-top: 20px;
+    padding-bottom: rem-calc(21);
+  }
+  @include md {
+    margin: 0 38px;
+    margin-bottom: rem-calc(100);
+    // padding-top: 20px;
+  }
+  @include lg{
+    margin-bottom: rem-calc(110);
+  }
+  @include xl {
+    margin-right: 180px;
+    margin-left: 0;
+    margin-bottom: rem-calc(175);
+  }
+}

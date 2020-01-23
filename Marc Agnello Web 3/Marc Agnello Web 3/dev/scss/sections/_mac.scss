@@ -1,0 +1,139 @@
+/* =============
+    mac
+============= */
+#mac {
+  div {
+    display: grid;
+    grid-template-areas: "text ." "text .";
+    grid-template-columns: 50% auto;
+    position: relative;
+    // grid-template-rows:
+    article {
+      padding-top: 25px;
+      grid-area: text;
+      @include md {
+        padding-top: 50px;
+      }
+
+      h1 {
+        color: $macBlue;
+      }
+
+      div {
+        position: relative;
+        /** number 5 **/
+        aside {
+          position: absolute;
+          height: 100px;
+          width: 100px;
+          top: 0;
+          left: -20px;
+          @include md {
+            bottom: 60px;
+            left: -28px;
+          }
+
+          h5 {
+            color: $macBlue;
+            margin: 0;
+          }
+        }
+      }
+
+      p {
+        @include md {
+          padding-bottom: 300px;
+        }
+
+        span {
+          display: none;
+          @include xl {
+            display: inherit;
+            padding-top: 15px;
+          }
+        }
+      }
+    }
+
+    aside {
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      margin-bottom: -9px;
+      // left: 700;
+      @include md {
+        right: 40px;
+        // margin-bottom: -9px;
+      }
+      @include lg {
+        // margin-bottom: -9px;
+      }
+      @include xl {
+        padding-right: 140px;
+        // left: -10px;
+      }
+
+      img {
+        height: 45vh;
+        @include md {
+          height: 50vh;
+        }
+        @include lg {
+          height: 130vh;
+          // padding-right: 100px;
+        }
+        @include xl {
+          height: 135vh;
+          // padding-left: -100px;
+          margin-right: -180px;
+        }
+      }
+    }
+  }
+}
+/* =============
+    music player
+============= */
+#faces {
+  background-color: $macBlueOpacity;
+  // margin-bottom: rem-calc(70);
+  // @include md{
+  //   margin-bottom: rem-calc(150);
+  // }
+  h2 {
+    color: $macBlue;
+  }
+
+  p {
+    padding-top: 40px;
+    padding-bottom: 0;
+    @include md {
+      padding-top: 85px;
+      padding-bottom: 0;
+    }
+    @include xl {
+      // padding-top: 230px;
+      padding-bottom: 0;
+    }
+  }
+
+  article {
+    padding-top: 20px;
+    padding-bottom: rem-calc(21);
+  }
+  @include md {
+    // margin: 0 38px;
+    margin-left: 38px;
+    margin-right: 38px;
+    margin-bottom: rem-calc(100);
+    // margin-bottom: 230px;
+  }
+  @include lg {
+    margin-bottom: rem-calc(110);
+  }
+  @include xl {
+    margin-left: 180px;
+    margin-right: 0;
+    margin-bottom: rem-calc(175);
+  }
+}

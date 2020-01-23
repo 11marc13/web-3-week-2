@@ -1,0 +1,82 @@
+/* =============
+    Base
+============= */
+.music-player {
+  > div {
+    display: flex;
+    flex: 2;
+    flex-direction: row;
+    padding-top: rem-calc(21);
+    @include md {
+      padding-top: 55px;
+      padding-bottom: 55px;
+    }
+    @include xl {
+      padding-top: 80px;
+      padding-bottom: 80px;
+    }
+
+    img {
+      // grid-area: album;
+      height: 25vh;
+      padding-left: 23px;
+      @include md {
+        height: 20vh;
+        padding-left: 60px;
+        padding-bottom: 0;
+      }
+      @include lg {
+        height: 70vh;
+        padding-bottom: 0;
+      }
+      @include xl {
+        height: 50vh;
+        padding-left: 80px;
+      }
+    }
+  }
+}
+
+audio {
+  padding-left: 23px;
+  padding-top: 10px;
+  @include md {
+    padding-left: 60px;
+    padding-top: 20px;
+    width: 50vw;
+  }
+  @include xl {
+    padding-left: 80px;
+  }
+}
+
+footer {
+  background-color: $footerBlue;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  @include md {
+    padding: 55px 30px;
+    // padding-left: 30px;
+    // padding-right: 30px;
+  }
+  @include lg {
+    padding-left: 160px;
+    padding-right: 160px;
+  }
+  @include xl {
+    padding-left: 200px;
+    padding-right: 200px;
+  }
+
+  h2 {
+    color: white;
+    text-align: center;
+    @include md {
+      line-height: 50px;
+    }
+    @include xl {
+      line-height: 55px;
+      font-size: 30px;
+    }
+  }
+}

@@ -1,0 +1,10 @@
+<svg id="burger" xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 44 44">
+  <g id="outline" fill="none" stroke="#d87337" stroke-miterlimit="10" stroke-width="3">
+    <circle cx="22" cy="22" r="22" stroke="none"/>
+    <circle cx="22" cy="22" r="20.5" fill="none"/>
+  </g>
+  <g id="lines" transform="translate(9 17)">
+    <path id="top-line" d="M.5.5h26" fill="none" stroke="#d87337" stroke-linecap="round" stroke-miterlimit="10" stroke-width="3"/>
+    <path id="bottom-line" d="M.5.5h26" transform="translate(0 10)" fill="none" stroke="#d87337" stroke-linecap="round" stroke-miterlimit="10" stroke-width="3"/>
+  </g>
+</svg>

@@ -1,0 +1,1376 @@
+/* =============
+    Mixins
+============= */
+/* ---------------- Font Sizing ---------------- */
+html {
+  font-size: 100%;
+}
+
+/* ---------------- Media Queries ---------------- */
+/* =============
+    Variables
+============= */
+/*! normalize.css v8.0.0 | MIT License | github.com/necolas/normalize.css */
+/* Document
+   ========================================================================== */
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+html {
+  line-height: 1.15;
+  /* 1 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+}
+
+/* Sections
+   ========================================================================== */
+/**
+ * Remove the margin in all browsers.
+ */
+body {
+  margin: 0;
+}
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* Grouping content
+   ========================================================================== */
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+hr {
+  box-sizing: content-box;
+  /* 1 */
+  height: 0;
+  /* 1 */
+  overflow: visible;
+  /* 2 */
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+pre {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * Remove the gray background on active links in IE 10.
+ */
+a {
+  background-color: transparent;
+}
+
+/**
+ * 1. Remove the bottom border in Chrome 57-
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+abbr[title] {
+  border-bottom: none;
+  /* 1 */
+  text-decoration: underline;
+  /* 2 */
+  -webkit-text-decoration: underline dotted;
+          text-decoration: underline dotted;
+  /* 2 */
+}
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+b,
+strong {
+  font-weight: bolder;
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+code,
+kbd,
+samp {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+
+/**
+ * Add the correct font size in all browsers.
+ */
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+/* Embedded content
+   ========================================================================== */
+/**
+ * Remove the border on images inside links in IE 10.
+ */
+img {
+  border-style: none;
+}
+
+/* Forms
+   ========================================================================== */
+/**
+ * 1. Change the font styles in all browsers.
+ * 2. Remove the margin in Firefox and Safari.
+ */
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit;
+  /* 1 */
+  font-size: 100%;
+  /* 1 */
+  line-height: 1.15;
+  /* 1 */
+  margin: 0;
+  /* 2 */
+}
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+button,
+input {
+  /* 1 */
+  overflow: visible;
+}
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+button,
+select {
+  /* 1 */
+  text-transform: none;
+}
+
+/**
+ * Correct the inability to style clickable types in iOS and Safari.
+ */
+button,
+[type=button],
+[type=reset],
+[type=submit] {
+  -webkit-appearance: button;
+}
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+button::-moz-focus-inner,
+[type=button]::-moz-focus-inner,
+[type=reset]::-moz-focus-inner,
+[type=submit]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+button:-moz-focusring,
+[type=button]:-moz-focusring,
+[type=reset]:-moz-focusring,
+[type=submit]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+/**
+ * Correct the padding in Firefox.
+ */
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+legend {
+  box-sizing: border-box;
+  /* 1 */
+  color: inherit;
+  /* 2 */
+  display: table;
+  /* 1 */
+  max-width: 100%;
+  /* 1 */
+  padding: 0;
+  /* 3 */
+  white-space: normal;
+  /* 1 */
+}
+
+/**
+ * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+progress {
+  vertical-align: baseline;
+}
+
+/**
+ * Remove the default vertical scrollbar in IE 10+.
+ */
+textarea {
+  overflow: auto;
+}
+
+/**
+ * 1. Add the correct box sizing in IE 10.
+ * 2. Remove the padding in IE 10.
+ */
+[type=checkbox],
+[type=radio] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+[type=number]::-webkit-inner-spin-button,
+[type=number]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+[type=search] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  outline-offset: -2px;
+  /* 2 */
+}
+
+/**
+ * Remove the inner padding in Chrome and Safari on macOS.
+ */
+[type=search]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  /* 1 */
+  font: inherit;
+  /* 2 */
+}
+
+/* Interactive
+   ========================================================================== */
+/*
+ * Add the correct display in Edge, IE 10+, and Firefox.
+ */
+details {
+  display: block;
+}
+
+/*
+ * Add the correct display in all browsers.
+ */
+summary {
+  display: list-item;
+}
+
+/* Misc
+   ========================================================================== */
+/**
+ * Add the correct display in IE 10+.
+ */
+template {
+  display: none;
+}
+
+/**
+ * Add the correct display in IE 10.
+ */
+[hidden] {
+  display: none;
+}
+
+/* =============
+    Base
+============= */
+.music-player > div {
+  display: flex;
+  flex: 2;
+  flex-direction: row;
+  padding-top: 1.3125rem;
+}
+@media (min-width: 768px) {
+  .music-player > div {
+    padding-top: 55px;
+    padding-bottom: 55px;
+  }
+}
+@media (min-width: 1200px) {
+  .music-player > div {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+}
+.music-player > div img {
+  height: 25vh;
+  padding-left: 23px;
+}
+@media (min-width: 768px) {
+  .music-player > div img {
+    height: 20vh;
+    padding-left: 60px;
+    padding-bottom: 0;
+  }
+}
+@media (min-width: 992px) {
+  .music-player > div img {
+    height: 70vh;
+    padding-bottom: 0;
+  }
+}
+@media (min-width: 1200px) {
+  .music-player > div img {
+    height: 50vh;
+    padding-left: 80px;
+  }
+}
+
+audio {
+  padding-left: 23px;
+  padding-top: 10px;
+}
+@media (min-width: 768px) {
+  audio {
+    padding-left: 60px;
+    padding-top: 20px;
+    width: 50vw;
+  }
+}
+@media (min-width: 1200px) {
+  audio {
+    padding-left: 80px;
+  }
+}
+
+footer {
+  background-color: #1741E3;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+@media (min-width: 768px) {
+  footer {
+    padding: 55px 30px;
+  }
+}
+@media (min-width: 992px) {
+  footer {
+    padding-left: 160px;
+    padding-right: 160px;
+  }
+}
+@media (min-width: 1200px) {
+  footer {
+    padding-left: 200px;
+    padding-right: 200px;
+  }
+}
+footer h2 {
+  color: white;
+  text-align: center;
+}
+@media (min-width: 768px) {
+  footer h2 {
+    line-height: 50px;
+  }
+}
+@media (min-width: 1200px) {
+  footer h2 {
+    line-height: 55px;
+    font-size: 30px;
+  }
+}
+
+/* =============
+    Typography
+============= */
+body {
+  font-family: "ebony", sans-serif;
+  line-height: 28px;
+}
+
+h1 {
+  font-family: "itc-avant-garde-pro", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+@media (min-width: 768px) {
+  h1 {
+    font-size: 40px;
+  }
+}
+@media (min-width: 1200px) {
+  h1 {
+    font-size: 50px;
+  }
+}
+
+h2 {
+  font-size: 20px;
+  padding-left: 23px;
+  padding-right: 23px;
+  margin: 0;
+}
+@media (min-width: 768px) {
+  h2 {
+    font-size: 30px;
+    padding-left: 60px;
+  }
+}
+@media (min-width: 1200px) {
+  h2 {
+    font-size: 40px;
+    padding-left: 80px;
+  }
+}
+
+h3 {
+  font-family: "itc-avant-garde-pro", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  padding-top: 5px;
+  line-height: 20px;
+}
+@media (min-width: 768px) {
+  h3 {
+    font-size: 25px;
+    line-height: 30px;
+    padding-top: 13px;
+  }
+}
+@media (min-width: 1200px) {
+  h3 {
+    font-size: 30px;
+    line-height: 33px;
+  }
+}
+
+h4 {
+  font-family: "itc-avant-garde-pro", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 25px;
+}
+@media (min-width: 768px) {
+  h4 {
+    font-size: 20px;
+    line-height: 30px;
+  }
+}
+
+h5 {
+  font-family: "itc-avant-garde-pro", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 8.4375rem;
+  opacity: 0.25;
+}
+@media (min-width: 768px) {
+  h5 {
+    font-size: 300px;
+  }
+}
+
+h1, h3, p {
+  padding-left: 23px;
+  padding-right: 23px;
+  margin: 0;
+}
+@media (min-width: 768px) {
+  h1, h3, p {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+}
+@media (min-width: 1200px) {
+  h1, h3, p {
+    padding-left: 78px;
+    padding-right: 120px;
+  }
+}
+
+p {
+  font-family: "ebony", sans-serif;
+  line-height: 28px;
+  line-height: 18px;
+  font-size: 15px;
+  padding-top: 10px;
+  padding-bottom: 80px;
+}
+@media (min-width: 768px) {
+  p {
+    font-size: 20px;
+    line-height: 30px;
+    padding-bottom: 80px;
+  }
+}
+@media (min-width: 1200px) {
+  p {
+    padding-bottom: 275px;
+  }
+}
+@media (min-width: 1200px) {
+  p {
+    line-height: 35px;
+  }
+}
+
+/* =============
+    Buttons
+============= */
+/* =============
+    Forms
+============= */
+[type=text], [type=password], [type=date], [type=datetime], [type=datetime-local], [type=month], [type=week], [type=email], [type=number], [type=search], [type=tel], [type=time], [type=url], [type=color], textarea {
+  box-shadow: none;
+}
+
+[type=text]:focus, [type=password]:focus, [type=date]:focus, [type=datetime]:focus, [type=datetime-local]:focus, [type=month]:focus, [type=week]:focus, [type=email]:focus, [type=number]:focus, [type=search]:focus, [type=tel]:focus, [type=time]:focus, [type=url]:focus, [type=color]:focus, textarea:focus {
+  box-shadow: none;
+}
+
+input[type=text],
+input[type=email],
+input[type=password],
+textarea {
+  -webkit-appearance: none;
+}
+
+/* =============
+    Navigation
+============= */
+/* =============
+    Header
+============= */
+/* =============
+    Footer
+============= */
+/* =============
+    hero
+============= */
+/* =============
+    intro
+============= */
+#intro {
+  padding-left: 23px;
+  padding-right: 23px;
+  padding-bottom: 40px;
+}
+@media (min-width: 768px) {
+  #intro div {
+    padding: 20px 100px 90px;
+  }
+}
+@media (min-width: 992px) {
+  #intro div {
+    padding-bottom: 120px;
+    padding-left: 120px;
+    padding-right: 120px;
+  }
+}
+@media (min-width: 1200px) {
+  #intro div {
+    padding-left: 350px;
+    padding-right: 350px;
+  }
+}
+
+/* =============
+    illenium
+============= */
+#illenium div {
+  display: grid;
+  grid-template-areas: "text ." "text .";
+  grid-template-columns: 50% auto;
+  position: relative;
+}
+#illenium div article {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 2;
+  -ms-grid-column: 1;
+  padding-top: 25px;
+  grid-area: text;
+}
+@media (min-width: 768px) {
+  #illenium div article {
+    padding-top: 50px;
+  }
+}
+#illenium div article h1 {
+  color: #F6450E;
+}
+#illenium div article div {
+  position: relative;
+  /** number 5 **/
+}
+#illenium div article div aside {
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  top: 0;
+  left: -20px;
+}
+@media (min-width: 768px) {
+  #illenium div article div aside {
+    bottom: 60px;
+    left: -28px;
+  }
+}
+#illenium div article div aside h5 {
+  color: #F6450E;
+  margin: 0;
+}
+@media (min-width: 768px) {
+  #illenium div article p {
+    padding-bottom: 300px;
+  }
+}
+#illenium div article p span {
+  display: none;
+}
+@media (min-width: 1200px) {
+  #illenium div article p span {
+    display: inherit;
+    padding-top: 15px;
+  }
+}
+#illenium div aside {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin-bottom: -9px;
+}
+@media (min-width: 768px) {
+  #illenium div aside {
+    right: 40px;
+  }
+}
+#illenium div aside img {
+  height: 52vh;
+}
+@media (min-width: 768px) {
+  #illenium div aside img {
+    height: 52vh;
+  }
+}
+@media (min-width: 992px) {
+  #illenium div aside img {
+    height: 130vh;
+  }
+}
+@media (min-width: 1200px) {
+  #illenium div aside img {
+    height: 120vh;
+  }
+}
+
+/* =============
+    music player
+============= */
+#ascend {
+  background-color: #FDD0C2;
+  margin-bottom: 3.125rem;
+}
+@media (min-width: 768px) {
+  #ascend {
+    margin-bottom: 6.25rem;
+  }
+}
+#ascend h2 {
+  color: #F6450E;
+}
+#ascend p {
+  padding-top: 45px;
+  padding-bottom: 0;
+}
+@media (min-width: 768px) {
+  #ascend p {
+    padding-top: 90px;
+    padding-bottom: 0;
+  }
+}
+@media (min-width: 1200px) {
+  #ascend p {
+    padding-bottom: 0;
+  }
+}
+#ascend article {
+  padding-top: 20px;
+  padding-bottom: 1.3125rem;
+}
+@media (min-width: 768px) {
+  #ascend {
+    margin-left: 38px;
+    margin-right: 38px;
+  }
+}
+@media (min-width: 992px) {
+  #ascend {
+    margin-bottom: 110px;
+  }
+}
+@media (min-width: 1200px) {
+  #ascend {
+    margin-left: 180px;
+    margin-right: 0;
+    margin-bottom: 10.9375rem;
+  }
+}
+
+/* =============
+    kendrick
+============= */
+#kendrick div {
+  display: grid;
+  grid-template-areas: ". text" ". text";
+  grid-template-columns: 50% auto;
+  position: relative;
+}
+#kendrick div article {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 2;
+  -ms-grid-column: 2;
+  padding-top: 25px;
+  grid-area: text;
+}
+@media (min-width: 768px) {
+  #kendrick div article {
+    padding-top: 50px;
+  }
+}
+#kendrick div article h1 {
+  color: #366F91;
+}
+#kendrick div article div {
+  position: relative;
+  /** number 4 **/
+}
+#kendrick div article div aside {
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  top: 0;
+  right: -5;
+}
+@media (min-width: 768px) {
+  #kendrick div article div aside {
+    bottom: 60px;
+    left: 0;
+    right: -11px;
+  }
+}
+#kendrick div article div aside h5 {
+  color: #366F91;
+  margin: 0;
+  padding-left: 128px;
+}
+@media (min-width: 768px) {
+  #kendrick div article div aside h5 {
+    padding-left: 225px;
+  }
+}
+@media (min-width: 992px) {
+  #kendrick div article div aside h5 {
+    padding-left: 338px;
+  }
+}
+@media (min-width: 1200px) {
+  #kendrick div article div aside h5 {
+    padding-left: 559px;
+  }
+}
+@media (min-width: 768px) {
+  #kendrick div article p {
+    padding-bottom: 300px;
+  }
+}
+#kendrick div article p span {
+  display: none;
+}
+@media (min-width: 1200px) {
+  #kendrick div article p span {
+    display: inherit;
+    padding-top: 15px;
+  }
+}
+#kendrick div aside {
+  position: absolute;
+  bottom: 0;
+  margin-bottom: -9px;
+}
+@media (min-width: 768px) {
+  #kendrick div aside {
+    left: 15px;
+    margin-bottom: -9px;
+  }
+}
+@media (min-width: 992px) {
+  #kendrick div aside {
+    left: 20px;
+  }
+}
+#kendrick div aside img {
+  height: 55vh;
+}
+@media (min-width: 768px) {
+  #kendrick div aside img {
+    height: 60vh;
+  }
+}
+@media (min-width: 992px) {
+  #kendrick div aside img {
+    height: 130vh;
+    padding-left: 80px;
+  }
+}
+@media (min-width: 1200px) {
+  #kendrick div aside img {
+    height: 130vh;
+  }
+}
+
+/* =============
+    music player
+============= */
+#good-kid {
+  background-color: #CDDBE4;
+  margin-bottom: 3.125rem;
+}
+#good-kid h2 {
+  color: #366F91;
+}
+#good-kid p {
+  padding-top: 36px;
+  padding-bottom: 0;
+}
+@media (min-width: 768px) {
+  #good-kid p {
+    padding-top: 85px;
+    padding-bottom: 0;
+  }
+}
+#good-kid article {
+  padding-top: 20px;
+  padding-bottom: 1.3125rem;
+}
+@media (min-width: 768px) {
+  #good-kid {
+    margin: 0 38px;
+    margin-bottom: 6.25rem;
+  }
+}
+@media (min-width: 992px) {
+  #good-kid {
+    margin-bottom: 6.875rem;
+  }
+}
+@media (min-width: 1200px) {
+  #good-kid {
+    margin-right: 180px;
+    margin-left: 0;
+    margin-bottom: 10.9375rem;
+  }
+}
+
+/* =============
+    travis
+============= */
+#travis div {
+  display: grid;
+  grid-template-areas: "text ." "text .";
+  grid-template-columns: 50% auto;
+  position: relative;
+}
+#travis div article {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 2;
+  -ms-grid-column: 1;
+  padding-top: 25px;
+  grid-area: text;
+}
+@media (min-width: 768px) {
+  #travis div article {
+    padding-top: 50px;
+  }
+}
+#travis div article h1 {
+  color: #D43438;
+}
+#travis div article div {
+  position: relative;
+  /** number 5 **/
+}
+#travis div article div aside {
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  top: 0;
+  left: -20px;
+}
+@media (min-width: 768px) {
+  #travis div article div aside {
+    bottom: 60px;
+    left: -28px;
+  }
+}
+#travis div article div aside h5 {
+  color: #D43438;
+  margin: 0;
+}
+@media (min-width: 768px) {
+  #travis div article p {
+    padding-bottom: 300px;
+  }
+}
+#travis div article p span {
+  display: none;
+}
+@media (min-width: 1200px) {
+  #travis div article p span {
+    display: inherit;
+    padding-top: 15px;
+  }
+}
+#travis div aside {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin-bottom: -9px;
+}
+@media (min-width: 768px) {
+  #travis div aside {
+    right: 40px;
+  }
+}
+@media (min-width: 1200px) {
+  #travis div aside {
+    padding-right: 140px;
+  }
+}
+#travis div aside img {
+  height: 70vh;
+}
+@media (min-width: 768px) {
+  #travis div aside img {
+    height: 66vh;
+  }
+}
+@media (min-width: 992px) {
+  #travis div aside img {
+    height: 130vh;
+    padding-right: 100px;
+  }
+}
+@media (min-width: 1200px) {
+  #travis div aside img {
+    height: 140vh;
+  }
+}
+
+/* =============
+    music player
+============= */
+#rodeo {
+  background-color: #F4CCCD;
+  margin-bottom: 3.125rem;
+}
+#rodeo h2 {
+  color: #D43438;
+}
+#rodeo p {
+  padding-top: 45px;
+  padding-bottom: 0;
+}
+@media (min-width: 768px) {
+  #rodeo p {
+    padding-top: 90px;
+    padding-bottom: 0;
+  }
+}
+@media (min-width: 1200px) {
+  #rodeo p {
+    padding-bottom: 0;
+  }
+}
+#rodeo article {
+  padding-top: 20px;
+  padding-bottom: 1.3125rem;
+}
+@media (min-width: 768px) {
+  #rodeo {
+    margin-left: 38px;
+    margin-right: 38px;
+    margin-bottom: 6.25rem;
+  }
+}
+@media (min-width: 992px) {
+  #rodeo {
+    margin-bottom: 6.875rem;
+  }
+}
+@media (min-width: 1200px) {
+  #rodeo {
+    margin-left: 180px;
+    margin-right: 0;
+    margin-bottom: 10.9375rem;
+  }
+}
+
+/* =============
+    frank
+============= */
+#frank div {
+  display: grid;
+  grid-template-areas: ". text" ". text";
+  grid-template-columns: 50% auto;
+  position: relative;
+}
+#frank div article {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 2;
+  -ms-grid-column: 2;
+  padding-top: 25px;
+  grid-area: text;
+}
+@media (min-width: 768px) {
+  #frank div article {
+    padding-top: 50px;
+  }
+}
+#frank div article h1 {
+  color: #476445;
+}
+#frank div article div {
+  position: relative;
+  /** number 4 **/
+}
+#frank div article div aside {
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  top: 0;
+  right: -5;
+}
+@media (min-width: 768px) {
+  #frank div article div aside {
+    bottom: 60px;
+    left: 0;
+    right: -11px;
+  }
+}
+#frank div article div aside h5 {
+  color: #476445;
+  margin: 0;
+  padding-left: 128px;
+}
+@media (min-width: 768px) {
+  #frank div article div aside h5 {
+    padding-left: 225px;
+  }
+}
+@media (min-width: 992px) {
+  #frank div article div aside h5 {
+    padding-left: 338px;
+  }
+}
+@media (min-width: 1200px) {
+  #frank div article div aside h5 {
+    padding-left: 559px;
+  }
+}
+@media (min-width: 768px) {
+  #frank div article p {
+    padding-bottom: 300px;
+  }
+}
+#frank div article p span {
+  display: none;
+}
+@media (min-width: 1200px) {
+  #frank div article p span {
+    display: inherit;
+    padding-top: 15px;
+  }
+}
+#frank div aside {
+  position: absolute;
+  bottom: 0;
+  margin-bottom: -9px;
+}
+@media (min-width: 768px) {
+  #frank div aside {
+    left: 15px;
+    margin-bottom: -9px;
+  }
+}
+@media (min-width: 992px) {
+  #frank div aside {
+    left: 20px;
+  }
+}
+#frank div aside img {
+  height: 48vh;
+}
+@media (min-width: 768px) {
+  #frank div aside img {
+    height: 50vh;
+  }
+}
+@media (min-width: 992px) {
+  #frank div aside img {
+    height: 120vh;
+    padding-left: 40px;
+  }
+}
+@media (min-width: 1200px) {
+  #frank div aside img {
+    height: 127vh;
+  }
+}
+
+/* =============
+    music player
+============= */
+#blonde {
+  background-color: #D1D8D0;
+  margin-bottom: 3.125rem;
+}
+#blonde h2 {
+  color: #476445;
+}
+#blonde p {
+  padding-top: 36px;
+  padding-bottom: 0;
+}
+@media (min-width: 768px) {
+  #blonde p {
+    padding-top: 85px;
+    padding-bottom: 0;
+  }
+}
+#blonde article {
+  padding-top: 20px;
+  padding-bottom: 1.3125rem;
+}
+@media (min-width: 768px) {
+  #blonde {
+    margin: 0 38px 6.25rem;
+  }
+}
+@media (min-width: 992px) {
+  #blonde {
+    margin-bottom: 6.875rem;
+  }
+}
+@media (min-width: 1200px) {
+  #blonde {
+    margin-right: 180px;
+    margin-left: 0;
+    margin-bottom: 10.9375rem;
+  }
+}
+
+/* =============
+    mac
+============= */
+#mac div {
+  display: grid;
+  grid-template-areas: "text ." "text .";
+  grid-template-columns: 50% auto;
+  position: relative;
+}
+#mac div article {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 2;
+  -ms-grid-column: 1;
+  padding-top: 25px;
+  grid-area: text;
+}
+@media (min-width: 768px) {
+  #mac div article {
+    padding-top: 50px;
+  }
+}
+#mac div article h1 {
+  color: #3189F9;
+}
+#mac div article div {
+  position: relative;
+  /** number 5 **/
+}
+#mac div article div aside {
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  top: 0;
+  left: -20px;
+}
+@media (min-width: 768px) {
+  #mac div article div aside {
+    bottom: 60px;
+    left: -28px;
+  }
+}
+#mac div article div aside h5 {
+  color: #3189F9;
+  margin: 0;
+}
+@media (min-width: 768px) {
+  #mac div article p {
+    padding-bottom: 300px;
+  }
+}
+#mac div article p span {
+  display: none;
+}
+@media (min-width: 1200px) {
+  #mac div article p span {
+    display: inherit;
+    padding-top: 15px;
+  }
+}
+#mac div aside {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin-bottom: -9px;
+}
+@media (min-width: 768px) {
+  #mac div aside {
+    right: 40px;
+  }
+}
+@media (min-width: 1200px) {
+  #mac div aside {
+    padding-right: 140px;
+  }
+}
+#mac div aside img {
+  height: 45vh;
+}
+@media (min-width: 768px) {
+  #mac div aside img {
+    height: 50vh;
+  }
+}
+@media (min-width: 992px) {
+  #mac div aside img {
+    height: 130vh;
+  }
+}
+@media (min-width: 1200px) {
+  #mac div aside img {
+    height: 135vh;
+    margin-right: -180px;
+  }
+}
+
+/* =============
+    music player
+============= */
+#faces {
+  background-color: #CBE1FE;
+}
+#faces h2 {
+  color: #3189F9;
+}
+#faces p {
+  padding-top: 40px;
+  padding-bottom: 0;
+}
+@media (min-width: 768px) {
+  #faces p {
+    padding-top: 85px;
+    padding-bottom: 0;
+  }
+}
+@media (min-width: 1200px) {
+  #faces p {
+    padding-bottom: 0;
+  }
+}
+#faces article {
+  padding-top: 20px;
+  padding-bottom: 1.3125rem;
+}
+@media (min-width: 768px) {
+  #faces {
+    margin-left: 38px;
+    margin-right: 38px;
+    margin-bottom: 6.25rem;
+  }
+}
+@media (min-width: 992px) {
+  #faces {
+    margin-bottom: 6.875rem;
+  }
+}
+@media (min-width: 1200px) {
+  #faces {
+    margin-left: 180px;
+    margin-right: 0;
+    margin-bottom: 10.9375rem;
+  }
+}
