@@ -1,7 +1,6 @@
 var lineToLine = gsap.timeline({paused:true});
-// lineToLine.to("#top-line",{duration:0.25, x:5},"move-lines")
-// .to("#bottom-line",{duration:0.25, y:-5},"move-lines")
-// .to("#middle-line", {alpha:0});
+lineToLine.to("#burger-container",{duration:0.25, morphSVG: "#record-player"});
+
 
 
 $("#burger-container").on("mouseenter", function(){

@@ -21,7 +21,12 @@ header {
       svg {
         height: 44px;
         cursor: pointer;
+        // padding-right: 20px;
       }
     }
+  }
+
+  #record-player{
+    visibility: hidden;
   }
 }

@@ -4,4 +4,5 @@
 
 $( document ).ready(function() {
   console.log( "ready!" );
+  gsap.registerPlugin(MorphSVGPlugin);
 });

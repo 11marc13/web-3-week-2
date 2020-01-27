@@ -625,6 +625,9 @@ header > div #burger-container svg {
   height: 44px;
   cursor: pointer;
 }
+header #record-player {
+  visibility: hidden;
+}
 
 /* =============
     Footer
