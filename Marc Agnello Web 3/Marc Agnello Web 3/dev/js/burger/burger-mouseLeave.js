@@ -9,7 +9,7 @@ $("#burger-container").on("mouseleave", function(){
         rotate.play();
     }else{
       lineToLine.pause();
-      rorate.pause();
+      rotate.pause();
       // recordToX.play();
     }
 

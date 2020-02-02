@@ -13,7 +13,7 @@ h1 {
   @include md {
     font-size: 40px;
   }
-  @include xl{
+  @include xl {
     font-size: 50px;
   }
 }
@@ -27,7 +27,7 @@ h2 {
     font-size: 30px;
     padding-left: 60px;
   }
-  @include xl{
+  @include xl {
     font-size: 40px;
     padding-left: 80px;
   }
@@ -44,7 +44,7 @@ h3 {
     line-height: 30px;
     padding-top: 13px;
   }
-  @include xl{
+  @include xl {
     font-size: 30px;
     line-height: 33px;
   }
@@ -68,13 +68,14 @@ h5 {
   font-style: normal;
   font-size: rem-calc(135);
   opacity: 0.25;
-  @include md{
+  @include md {
     font-size: 300px;
   }
 }
 
-
-h1,h3,p {
+h1,
+h3,
+p {
   padding-left: 23px;
   padding-right: 23px;
   margin: 0;
@@ -82,15 +83,15 @@ h1,h3,p {
     padding-left: 60px;
     padding-right: 60px;
   }
-  @include xl{
+  @include xl {
     padding-left: 78px;
     padding-right: 120px;
   }
 }
 
 p {
-    font-family: 'ebony', sans-serif;
-    line-height: 28px;
+  font-family: 'ebony', sans-serif;
+  line-height: 28px;
   line-height: 18px;
   font-size: 15px;
   padding-top: 10px;
@@ -100,11 +101,52 @@ p {
     line-height: 30px;
     padding-bottom: 80px;
   }
-  @include xl{
+  @include xl {
     padding-bottom: 275px;
   }
-
-  @include xl{
+  @include xl {
     line-height: 35px;
+  }
+}
+
+li {
+  font-family: 'itc-avant-garde-pro', sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 30px;
+}
+
+#illeniumColor {
+  a:active,
+  a:hover {
+    color: $illeniumRed;
+  }
+}
+
+#kendrickColor {
+  a:active,
+  a:hover {
+    color: $kendrickblue;
+  }
+}
+
+#travisColor {
+  a:active,
+  a:hover {
+    color: $travisRed;
+  }
+}
+
+#frankColor {
+  a:active,
+  a:hover {
+    color: $frankGreen;
+  }
+}
+
+#macColor {
+  a:active,
+  a:hover {
+    color: $macBlue;
   }
 }
