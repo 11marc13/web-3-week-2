@@ -1,0 +1,13 @@
+/* =============
+    Navigation background
+============= */
+#nav-bg{
+  position: fixed;
+  height: 50px;
+  width: 50px;
+  border-radius: 100px;
+  background-color: $black;
+  z-index:15;
+  top: 15px;
+  right: 19px;
+}
