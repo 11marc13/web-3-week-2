@@ -7,7 +7,10 @@ $("#burger-container").on("click", function(){
     if(canYouSeeNav === false){
         // play the timeline to combine the lines into 1 line
         rotate.play();
+        gsap.to("#nav-bg",{duration:0.5, scale:15, y: 400, x: 70});
+        canYouSeeNav = true;
     }else{
+      gsap.to("#nav-bg",{duration:0.5, scale:1, y:-450});
       canYouSeeNav = false;
     }
 
