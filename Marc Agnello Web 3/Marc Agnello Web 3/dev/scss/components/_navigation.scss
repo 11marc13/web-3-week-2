@@ -12,8 +12,12 @@ nav {
     top: 90px;
     right: 20px;
   }
+  @include lg{
+    top: 130px;
+    right: 25px;
+  }
   @include xl {
-    top: 0;
+    top: 30px;
     right: 20px;
     height: 100vh;
   }
@@ -27,9 +31,12 @@ nav {
       @include md{
         line-height: 60px;
       }
+      @include lg{
+        line-height: 40px;
+      }
       @include xl {
         margin-bottom: 20px;
-        line-height: 30px;
+        line-height: 35px;
       }
 
       a:link,

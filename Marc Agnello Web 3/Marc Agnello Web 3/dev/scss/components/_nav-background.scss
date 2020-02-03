@@ -22,10 +22,19 @@
     // top: -80px;
   }
 
+  @include lg{
+    height: 40px;
+    width: 40px;
+    right: 35px;
+    // left: 0px;
+  }
+
 
   @include xl{
-    top: 15px;
+    top: 12px;
     right: 19px;
+    width: 55px;
+    height: 55px;
   }
 
 }
