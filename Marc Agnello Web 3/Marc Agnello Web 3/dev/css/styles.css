@@ -589,7 +589,12 @@ li {
   font-family: "itc-avant-garde-pro", sans-serif;
   font-weight: 700;
   font-style: normal;
-  font-size: 30px;
+  font-size: 25px;
+}
+@media (min-width: 1200px) {
+  li {
+    font-size: 30px;
+  }
 }
 
 #illeniumColor a:active,
@@ -643,21 +648,33 @@ textarea {
 ============= */
 nav {
   position: fixed;
-  top: 0;
-  right: 20px;
   z-index: 20;
-  height: 100vh;
   align-items: center;
+  right: 10px;
+  top: 130px;
+}
+@media (min-width: 1200px) {
+  nav {
+    top: 0;
+    right: 20px;
+    height: 100vh;
+  }
 }
 nav ul {
   padding: 100px 0 0 20px;
 }
 nav ul li {
   list-style-type: none;
-  margin-bottom: 20px;
-  line-height: 30px;
+  line-height: 40px;
 }
-nav ul li a:link, nav ul li a:visited {
+@media (min-width: 1200px) {
+  nav ul li {
+    margin-bottom: 20px;
+    line-height: 30px;
+  }
+}
+nav ul li a:link,
+nav ul li a:visited {
   color: #fff;
   text-decoration: none;
   transition: 0.25s;
@@ -668,16 +685,22 @@ nav ul li a:link, nav ul li a:visited {
 ============= */
 #nav-bg {
   position: fixed;
-  height: 50px;
-  width: 50px;
+  height: 40px;
+  width: 40px;
+  top: -70px;
+  right: 15px;
   border-radius: 100px;
   background-image: url("../assets/vinyl-record-opacityv2.png");
   background-position: center;
   background-size: cover;
   background-color: #000;
   z-index: 15;
-  top: 15px;
-  right: 19px;
+}
+@media (min-width: 1200px) {
+  #nav-bg {
+    top: 15px;
+    right: 19px;
+  }
 }
 
 /* =============

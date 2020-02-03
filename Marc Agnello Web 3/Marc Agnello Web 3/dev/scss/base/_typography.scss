@@ -115,7 +115,13 @@ li {
   font-family: 'itc-avant-garde-pro', sans-serif;
   font-weight: 700;
   font-style: normal;
-  font-size: 30px;
+  font-size: 25px;
+
+
+  @include xl{
+      font-size: 30px;
+  }
+
 }
 
 #illeniumColor {
