@@ -468,6 +468,8 @@ h1 {
 }
 
 h2 {
+  font-family: "itc-avant-garde-pro", sans-serif;
+  font-weight: 700;
   font-size: 20px;
   padding-left: 23px;
   padding-right: 23px;
@@ -670,6 +672,8 @@ nav ul li a:link, nav ul li a:visited {
   width: 50px;
   border-radius: 100px;
   background-color: #000;
+  background-image: url("...assets/vinyl-record.png");
+  opacity: 50%;
   z-index: 15;
   top: 15px;
   right: 19px;

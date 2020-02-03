@@ -17,7 +17,7 @@ function burgerClicked(){
       recordToX.invalidate().restart();
       gsap.to("#nav-bg",{duration:0.15, scale:15, y: 400, x: 70});
       gsap.set("nav",{display:"flex"});
-      gsap.from("nav li",{duration:0.25, alpha:0, stagger:0.15});
+      gsap.from("nav li",{duration:0.25, alpha:0, stagger: 0.15});
       canYouSeeNav = true;
     }else{
       // recordToX.invalidate().restart();
