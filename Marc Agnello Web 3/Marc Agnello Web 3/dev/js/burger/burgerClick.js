@@ -16,6 +16,7 @@ function burgerClicked(){
     if(canYouSeeNav === false){
       recordToX.invalidate().restart();
       gsap.to("#nav-bg",{duration:0.15, scale:15, y: 400, x: 70});
+      gsap.from("#nav-bg", {transformOrigin: "50 50", rotate: 360, repeat: -1,  ease: Power0.easeNone, duration: 2});
       gsap.set("nav",{display:"flex"});
       gsap.from("nav li",{duration:0.25, alpha:0, stagger: 0.15});
       canYouSeeNav = true;
