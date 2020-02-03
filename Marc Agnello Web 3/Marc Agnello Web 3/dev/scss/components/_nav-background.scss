@@ -14,6 +14,14 @@
   background-color: $black;
   z-index:15;
 
+  @include md{
+    height: 60px;
+    width: 60px;
+    // right: 0px;
+    // bottom: 40px;
+    // top: -80px;
+  }
+
 
   @include xl{
     top: 15px;

@@ -117,6 +117,10 @@ li {
   font-style: normal;
   font-size: 25px;
 
+  @include md{
+    font-size: 40px;
+  }
+
 
   @include xl{
       font-size: 30px;

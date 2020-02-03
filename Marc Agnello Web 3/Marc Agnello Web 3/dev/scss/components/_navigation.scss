@@ -8,6 +8,10 @@ nav {
   align-items: center;
   right: 10px;
   top: 130px;
+  @include md{
+    top: 90px;
+    right: 20px;
+  }
   @include xl {
     top: 0;
     right: 20px;
@@ -20,6 +24,9 @@ nav {
     li {
       list-style-type: none;
       line-height: 40px;
+      @include md{
+        line-height: 60px;
+      }
       @include xl {
         margin-bottom: 20px;
         line-height: 30px;

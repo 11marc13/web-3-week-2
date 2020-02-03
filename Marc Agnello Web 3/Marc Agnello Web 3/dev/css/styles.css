@@ -591,6 +591,11 @@ li {
   font-style: normal;
   font-size: 25px;
 }
+@media (min-width: 768px) {
+  li {
+    font-size: 40px;
+  }
+}
 @media (min-width: 1200px) {
   li {
     font-size: 30px;
@@ -653,6 +658,12 @@ nav {
   right: 10px;
   top: 130px;
 }
+@media (min-width: 768px) {
+  nav {
+    top: 90px;
+    right: 20px;
+  }
+}
 @media (min-width: 1200px) {
   nav {
     top: 0;
@@ -666,6 +677,11 @@ nav ul {
 nav ul li {
   list-style-type: none;
   line-height: 40px;
+}
+@media (min-width: 768px) {
+  nav ul li {
+    line-height: 60px;
+  }
 }
 @media (min-width: 1200px) {
   nav ul li {
@@ -695,6 +711,12 @@ nav ul li a:visited {
   background-size: cover;
   background-color: #000;
   z-index: 15;
+}
+@media (min-width: 768px) {
+  #nav-bg {
+    height: 60px;
+    width: 60px;
+  }
 }
 @media (min-width: 1200px) {
   #nav-bg {
